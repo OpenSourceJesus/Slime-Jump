@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5328463284849242245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2242213860998662834}
+  - component: {fileID: 3093479238942310778}
+  - component: {fileID: 2725709722341304671}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2242213860998662834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328463284849242245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3093479238942310778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328463284849242245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa2c85276c0e69e6b6a7b572ae3181f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handleMultipleInstances: 0
+  persistant: 0
+  currentSelected: {fileID: 0}
+  multiplyBrightness: {fileID: 2725709722341304671}
+  angleEffectiveness: 1
+  distanceEffectiveness: 500
+  repeatTimer:
+    duration: 0.25
+    timeRemaining: 0
+    loop: 1
+    realtime: 1
+    pauseWhileNotFocused: 1
+    autoStopIfNotLooping: 1
+  useAngleAndDistanceEffectiveness: 0
+  eventSystem: {fileID: 0}
+--- !u!114 &2725709722341304671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328463284849242245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3748760eef90fc4628e4fc657eb3a2b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Multiply Brightness
+  realtime: 1
+  value:
+    value: 0.6
+    valueRange:
+      min: 0.6
+      max: 0.9
+  changeAmountMultiplier: 0.8
+  repeatType: 2
+  initValue: 0

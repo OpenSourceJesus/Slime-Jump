@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 74eaba0d8c6f76743a756117adab868a
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Documentation.html
+  uploadId: 740635

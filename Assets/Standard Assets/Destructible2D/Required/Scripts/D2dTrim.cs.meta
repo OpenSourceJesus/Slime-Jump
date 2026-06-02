@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 17d25e60d714680419c15d101a0d1abf
+timeCreated: 1441468023
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Scripts/D2dTrim.cs
+  uploadId: 740635

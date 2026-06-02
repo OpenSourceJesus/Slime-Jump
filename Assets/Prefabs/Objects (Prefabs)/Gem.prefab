@@ -1,0 +1,6168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4492159603912673969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8960161468152823332}
+  - component: {fileID: 6623997977776780382}
+  m_Layer: 16
+  m_Name: World Map Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8960161468152823332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4492159603912673969}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 54301256826875943}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6623997977776780382
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4492159603912673969}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 100
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: c5a53d3c61b15d99bae57013da44e247, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.71428573, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &5297697395164101987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54301256826875943}
+  - component: {fileID: 9017542995670741268}
+  - component: {fileID: 1535191912903200215}
+  - component: {fileID: 4618370611421038413}
+  - component: {fileID: 8547913291519919972}
+  - component: {fileID: 222008517285902183}
+  - component: {fileID: -8384088171100114240}
+  - component: {fileID: 1099654746519603050}
+  - component: {fileID: 4959330399860850561}
+  m_Layer: 8
+  m_Name: Gem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &54301256826875943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8960161468152823332}
+  - {fileID: 4945959386631869497}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &9017542995670741268
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: ec1f67d2dd25a4c19b7a1b71ec28cb11, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!114 &1535191912903200215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64986900f5172a74288e491648ba121d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLiveUpdate: 1
+  mAlphaOpaqueThreshold: 0.1
+  mVertexReductionDistanceTolerance: 0
+  mMaxPointCount: -1
+  mDefaultMaxPointCount: 20
+  mThickness: 1
+  mFlipHorizontal: 0
+  mFlipVertical: 0
+  mConvex: 0
+  mFlipInsideOutside: 0
+  mCustomRotation: -888
+  mCustomScale: {x: 1, y: 1}
+  mCustomOffset: {x: 0, y: 0, z: 0}
+  mCopyOTSpriteFlipping: 1
+  mCopySmoothMovesSpriteDimensions: 1
+  mCustomTex: {fileID: 0}
+  mIsCustomAtlasRegionUsed: 0
+  mCustomAtlasFrameTitle: 
+  mCustomAtlasFramePositionInPixels: {x: 0, y: 0}
+  mCustomAtlasFrameSizeInPixels: {x: 0, y: 0}
+  mCustomAtlasFrameRotation: 0
+  mApplySmoothMovesScaleAnim: 1
+  mGroupSuffix: 
+  mColliderMeshFilename: Atlas_0_Gem_D532B02B.dae
+  mWasInitialized: 1
+  mMainTex: {fileID: 2800000, guid: ec1f67d2dd25a4c19b7a1b71ec28cb11, type: 3}
+  mColliderMeshDirectory: Assets/Colliders/Generated
+  mIsAtlasUsed: 1
+  mAtlasFrameIndex: 0
+  mAtlasFrameTitle: Gem
+  mAtlasFramePositionInPixels: {x: 0, y: 0}
+  mAtlasFrameSizeInPixels: {x: 500, y: 500}
+  mAtlasFrameRotation: 0
+  mOutlineScale: {x: 1, y: 1}
+  mOutlineOffset: {x: 0, y: 0, z: 0}
+  mInactiveBaseImageIsAtlas: 0
+  mInactiveBaseImageWidth: 100
+  mInactiveBaseImageHeight: 100
+  mInactiveBaseImageOutlineScale: {x: 1, y: 1}
+  mInactiveBaseImageOutlineOffset: {x: 0, y: 0, z: 0}
+  mHasOTSpriteComponent: 0
+  mHasSmoothMovesSpriteComponent: 0
+  mIsSmoothMovesNodeWithoutSprite: 0
+  mHasSmoothMovesAnimBoneColliderComponent: 0
+  mHasUnity43SpriteRendererComponent: 1
+  mHasUnity43SpriteAnimatorComponent: 1
+  mHasUGUIImageSpriteComponent: 0
+  mHasUGUIRawImageComponent: 0
+  mColliderRegions: []
+  mActiveColliderIndex: 0
+  mGeneratedColliderData:
+  - mBinaryImageWidth: 500
+    mBinaryImageHeight: 500
+    mIslandsWorkList:
+    - mPointCount: 37999
+    - mPointCount: 1538
+    - mPointCount: 1239
+    - mPointCount: 43
+    - mPointCount: 37
+    - mPointCount: 36
+    - mPointCount: 33
+    - mPointCount: 29
+    - mPointCount: 28
+    - mPointCount: 26
+    - mPointCount: 26
+    - mPointCount: 24
+    - mPointCount: 23
+    - mPointCount: 22
+    - mPointCount: 20
+    - mPointCount: 19
+    - mPointCount: 19
+    - mPointCount: 18
+    - mPointCount: 18
+    - mPointCount: 17
+    - mPointCount: 17
+    - mPointCount: 16
+    - mPointCount: 16
+    - mPointCount: 15
+    - mPointCount: 15
+    - mPointCount: 14
+    - mPointCount: 14
+    - mPointCount: 13
+    - mPointCount: 13
+    - mPointCount: 12
+    - mPointCount: 12
+    - mPointCount: 12
+    - mPointCount: 12
+    - mPointCount: 12
+    - mPointCount: 11
+    - mPointCount: 11
+    - mPointCount: 11
+    - mPointCount: 11
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 10
+    - mPointCount: 9
+    - mPointCount: 9
+    - mPointCount: 9
+    - mPointCount: 9
+    - mPointCount: 9
+    - mPointCount: 9
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 8
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 7
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 6
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 5
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 4
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 3
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 2
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    - mPointCount: 1
+    mSeaRegionsWorkList:
+    - mPointCount: 207599
+    - mPointCount: 2
+    - mPointCount: 1
+    - mPointCount: 1
+    mColliderRegions:
+    - mDetectedRegion:
+        mPointCount: 37999
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices:
+      - {x: 0.052000027, y: -0.442}
+      - {x: 0.056000028, y: -0.442}
+      - {x: 0.056000028, y: -0.44}
+      - {x: 0.060000025, y: -0.44}
+      - {x: 0.060000025, y: -0.438}
+      - {x: 0.07000003, y: -0.438}
+      - {x: 0.07000003, y: -0.436}
+      - {x: 0.07400003, y: -0.436}
+      - {x: 0.07400003, y: -0.434}
+      - {x: 0.078000024, y: -0.434}
+      - {x: 0.078000024, y: -0.432}
+      - {x: 0.08000003, y: -0.432}
+      - {x: 0.08000003, y: -0.43}
+      - {x: 0.082000025, y: -0.43}
+      - {x: 0.082000025, y: -0.428}
+      - {x: 0.08400003, y: -0.428}
+      - {x: 0.08400003, y: -0.40399998}
+      - {x: 0.086000025, y: -0.40399998}
+      - {x: 0.086000025, y: -0.384}
+      - {x: 0.08800003, y: -0.384}
+      - {x: 0.08800003, y: -0.368}
+      - {x: 0.090000026, y: -0.368}
+      - {x: 0.090000026, y: -0.354}
+      - {x: 0.09200003, y: -0.354}
+      - {x: 0.09200003, y: -0.34}
+      - {x: 0.09400003, y: -0.34}
+      - {x: 0.09400003, y: -0.32799998}
+      - {x: 0.09600003, y: -0.32799998}
+      - {x: 0.09600003, y: -0.31399998}
+      - {x: 0.09800003, y: -0.31399998}
+      - {x: 0.09800003, y: -0.302}
+      - {x: 0.10000003, y: -0.302}
+      - {x: 0.10000003, y: -0.29}
+      - {x: 0.10200003, y: -0.29}
+      - {x: 0.10200003, y: -0.276}
+      - {x: 0.10400003, y: -0.276}
+      - {x: 0.10400003, y: -0.262}
+      - {x: 0.10600003, y: -0.262}
+      - {x: 0.10600003, y: -0.24799998}
+      - {x: 0.108000025, y: -0.24799998}
+      - {x: 0.108000025, y: -0.24599999}
+      - {x: 0.11000003, y: -0.24599999}
+      - {x: 0.11000003, y: -0.24399999}
+      - {x: 0.108000025, y: -0.24399999}
+      - {x: 0.108000025, y: -0.232}
+      - {x: 0.11000003, y: -0.232}
+      - {x: 0.11000003, y: -0.21799998}
+      - {x: 0.112000026, y: -0.21799998}
+      - {x: 0.112000026, y: -0.20199999}
+      - {x: 0.11400003, y: -0.20199999}
+      - {x: 0.11400003, y: -0.19999999}
+      - {x: 0.11600003, y: -0.19999999}
+      - {x: 0.11600003, y: -0.19799998}
+      - {x: 0.11400003, y: -0.19799998}
+      - {x: 0.11400003, y: -0.18399999}
+      - {x: 0.11600003, y: -0.18399999}
+      - {x: 0.11600003, y: -0.16599998}
+      - {x: 0.11800003, y: -0.16599998}
+      - {x: 0.11800003, y: -0.14799999}
+      - {x: 0.12000003, y: -0.14799999}
+      - {x: 0.12000003, y: -0.12999998}
+      - {x: 0.12200003, y: -0.12999998}
+      - {x: 0.12200003, y: -0.12599999}
+      - {x: 0.12400003, y: -0.12599999}
+      - {x: 0.12400003, y: -0.12199998}
+      - {x: 0.12600003, y: -0.12199998}
+      - {x: 0.12600003, y: -0.113999985}
+      - {x: 0.12400003, y: -0.113999985}
+      - {x: 0.12400003, y: -0.09399998}
+      - {x: 0.12600003, y: -0.09399998}
+      - {x: 0.12600003, y: -0.07999998}
+      - {x: 0.12800004, y: -0.07999998}
+      - {x: 0.12800004, y: -0.05799998}
+      - {x: 0.12600003, y: -0.05799998}
+      - {x: 0.12600003, y: -0.05599998}
+      - {x: 0.12400003, y: -0.05599998}
+      - {x: 0.12400003, y: -0.05199998}
+      - {x: 0.12200003, y: -0.05199998}
+      - {x: 0.12200003, y: -0.04999998}
+      - {x: 0.11800003, y: -0.04999998}
+      - {x: 0.11800003, y: -0.045999978}
+      - {x: 0.11600003, y: -0.045999978}
+      - {x: 0.11600003, y: -0.041999977}
+      - {x: 0.11400003, y: -0.041999977}
+      - {x: 0.11400003, y: -0.039999977}
+      - {x: 0.112000026, y: -0.039999977}
+      - {x: 0.112000026, y: -0.035999976}
+      - {x: 0.11000003, y: -0.035999976}
+      - {x: 0.11000003, y: -0.03199998}
+      - {x: 0.108000025, y: -0.03199998}
+      - {x: 0.108000025, y: -0.027999979}
+      - {x: 0.10600003, y: -0.027999979}
+      - {x: 0.10600003, y: -0.023999978}
+      - {x: 0.10400003, y: -0.023999978}
+      - {x: 0.10400003, y: -0.015999977}
+      - {x: 0.10000003, y: -0.015999977}
+      - {x: 0.10000003, y: -0.011999977}
+      - {x: 0.09800003, y: -0.011999977}
+      - {x: 0.09800003, y: -0.007999977}
+      - {x: 0.09600003, y: -0.007999977}
+      - {x: 0.09600003, y: -0.0039999764}
+      - {x: 0.09400003, y: -0.0039999764}
+      - {x: 0.09400003, y: 0.000000023748726}
+      - {x: 0.09200003, y: 0.000000023748726}
+      - {x: 0.09200003, y: 0.0060000243}
+      - {x: 0.09400003, y: 0.0060000243}
+      - {x: 0.09400003, y: 0.010000024}
+      - {x: 0.08800003, y: 0.010000024}
+      - {x: 0.08800003, y: 0.012000024}
+      - {x: 0.090000026, y: 0.012000024}
+      - {x: 0.090000026, y: 0.014000025}
+      - {x: 0.09200003, y: 0.014000025}
+      - {x: 0.09200003, y: 0.012000024}
+      - {x: 0.09400003, y: 0.012000024}
+      - {x: 0.09400003, y: 0.018000025}
+      - {x: 0.090000026, y: 0.018000025}
+      - {x: 0.090000026, y: 0.022000024}
+      - {x: 0.08800003, y: 0.022000024}
+      - {x: 0.08800003, y: 0.024000024}
+      - {x: 0.090000026, y: 0.024000024}
+      - {x: 0.090000026, y: 0.022000024}
+      - {x: 0.09400003, y: 0.022000024}
+      - {x: 0.09400003, y: 0.024000024}
+      - {x: 0.09800003, y: 0.024000024}
+      - {x: 0.09800003, y: 0.028000025}
+      - {x: 0.09600003, y: 0.028000025}
+      - {x: 0.09600003, y: 0.026000025}
+      - {x: 0.09400003, y: 0.026000025}
+      - {x: 0.09400003, y: 0.030000025}
+      - {x: 0.08800003, y: 0.030000025}
+      - {x: 0.08800003, y: 0.034000024}
+      - {x: 0.086000025, y: 0.034000024}
+      - {x: 0.086000025, y: 0.046000026}
+      - {x: 0.08400003, y: 0.046000026}
+      - {x: 0.08400003, y: 0.048000026}
+      - {x: 0.082000025, y: 0.048000026}
+      - {x: 0.082000025, y: 0.042000026}
+      - {x: 0.08000003, y: 0.042000026}
+      - {x: 0.08000003, y: 0.038000025}
+      - {x: 0.082000025, y: 0.038000025}
+      - {x: 0.082000025, y: 0.036000025}
+      - {x: 0.08400003, y: 0.036000025}
+      - {x: 0.08400003, y: 0.034000024}
+      - {x: 0.082000025, y: 0.034000024}
+      - {x: 0.082000025, y: 0.032000024}
+      - {x: 0.078000024, y: 0.032000024}
+      - {x: 0.078000024, y: 0.038000025}
+      - {x: 0.07400003, y: 0.038000025}
+      - {x: 0.07400003, y: 0.042000026}
+      - {x: 0.07200003, y: 0.042000026}
+      - {x: 0.07200003, y: 0.046000026}
+      - {x: 0.07000003, y: 0.046000026}
+      - {x: 0.07000003, y: 0.052000027}
+      - {x: 0.068000026, y: 0.052000027}
+      - {x: 0.068000026, y: 0.056000028}
+      - {x: 0.07000003, y: 0.056000028}
+      - {x: 0.07000003, y: 0.060000025}
+      - {x: 0.064000025, y: 0.060000025}
+      - {x: 0.064000025, y: 0.064000025}
+      - {x: 0.062000025, y: 0.064000025}
+      - {x: 0.062000025, y: 0.068000026}
+      - {x: 0.060000025, y: 0.068000026}
+      - {x: 0.060000025, y: 0.07000003}
+      - {x: 0.06600003, y: 0.07000003}
+      - {x: 0.06600003, y: 0.07400003}
+      - {x: 0.064000025, y: 0.07400003}
+      - {x: 0.064000025, y: 0.07600003}
+      - {x: 0.062000025, y: 0.07600003}
+      - {x: 0.062000025, y: 0.07200003}
+      - {x: 0.060000025, y: 0.07200003}
+      - {x: 0.060000025, y: 0.07600003}
+      - {x: 0.062000025, y: 0.07600003}
+      - {x: 0.062000025, y: 0.082000025}
+      - {x: 0.064000025, y: 0.082000025}
+      - {x: 0.064000025, y: 0.086000025}
+      - {x: 0.06600003, y: 0.086000025}
+      - {x: 0.06600003, y: 0.08800003}
+      - {x: 0.064000025, y: 0.08800003}
+      - {x: 0.064000025, y: 0.09800003}
+      - {x: 0.062000025, y: 0.09800003}
+      - {x: 0.062000025, y: 0.10600003}
+      - {x: 0.060000025, y: 0.10600003}
+      - {x: 0.060000025, y: 0.12200003}
+      - {x: 0.056000028, y: 0.12200003}
+      - {x: 0.056000028, y: 0.13000003}
+      - {x: 0.054000027, y: 0.13000003}
+      - {x: 0.054000027, y: 0.13800003}
+      - {x: 0.052000027, y: 0.13800003}
+      - {x: 0.052000027, y: 0.14600003}
+      - {x: 0.050000027, y: 0.14600003}
+      - {x: 0.050000027, y: 0.15400003}
+      - {x: 0.048000026, y: 0.15400003}
+      - {x: 0.048000026, y: 0.16200003}
+      - {x: 0.046000026, y: 0.16200003}
+      - {x: 0.046000026, y: 0.17000003}
+      - {x: 0.044000026, y: 0.17000003}
+      - {x: 0.044000026, y: 0.17800003}
+      - {x: 0.042000026, y: 0.17800003}
+      - {x: 0.042000026, y: 0.18600003}
+      - {x: 0.040000025, y: 0.18600003}
+      - {x: 0.040000025, y: 0.19400004}
+      - {x: 0.038000025, y: 0.19400004}
+      - {x: 0.038000025, y: 0.20200004}
+      - {x: 0.036000025, y: 0.20200004}
+      - {x: 0.036000025, y: 0.20800003}
+      - {x: 0.034000024, y: 0.20800003}
+      - {x: 0.034000024, y: 0.21600004}
+      - {x: 0.032000024, y: 0.21600004}
+      - {x: 0.032000024, y: 0.22400004}
+      - {x: 0.030000025, y: 0.22400004}
+      - {x: 0.030000025, y: 0.23200004}
+      - {x: 0.028000025, y: 0.23200004}
+      - {x: 0.028000025, y: 0.24000004}
+      - {x: 0.026000025, y: 0.24000004}
+      - {x: 0.026000025, y: 0.24600004}
+      - {x: 0.024000024, y: 0.24600004}
+      - {x: 0.024000024, y: 0.25400004}
+      - {x: 0.022000024, y: 0.25400004}
+      - {x: 0.022000024, y: 0.26000005}
+      - {x: 0.020000026, y: 0.26000005}
+      - {x: 0.020000026, y: 0.26800004}
+      - {x: 0.018000025, y: 0.26800004}
+      - {x: 0.018000025, y: 0.27600002}
+      - {x: 0.016000025, y: 0.27600002}
+      - {x: 0.016000025, y: 0.28400004}
+      - {x: 0.014000025, y: 0.28400004}
+      - {x: 0.014000025, y: 0.29000005}
+      - {x: 0.012000024, y: 0.29000005}
+      - {x: 0.012000024, y: 0.29800004}
+      - {x: 0.010000024, y: 0.29800004}
+      - {x: 0.010000024, y: 0.30400005}
+      - {x: 0.008000024, y: 0.30400005}
+      - {x: 0.008000024, y: 0.31200004}
+      - {x: 0.0060000243, y: 0.31200004}
+      - {x: 0.0060000243, y: 0.32000005}
+      - {x: 0.004000024, y: 0.32000005}
+      - {x: 0.004000024, y: 0.32600003}
+      - {x: 0.0020000238, y: 0.32600003}
+      - {x: 0.0020000238, y: 0.32800004}
+      - {x: 0.000000023748726, y: 0.32800004}
+      - {x: 0.000000023748726, y: 0.33000004}
+      - {x: -0.0039999764, y: 0.33000004}
+      - {x: -0.0039999764, y: 0.32600003}
+      - {x: -0.005999977, y: 0.32600003}
+      - {x: -0.005999977, y: 0.32400003}
+      - {x: -0.007999977, y: 0.32400003}
+      - {x: -0.007999977, y: 0.32200003}
+      - {x: -0.0099999765, y: 0.32200003}
+      - {x: -0.0099999765, y: 0.32000005}
+      - {x: -0.011999977, y: 0.32000005}
+      - {x: -0.011999977, y: 0.31600004}
+      - {x: -0.013999977, y: 0.31600004}
+      - {x: -0.013999977, y: 0.31400004}
+      - {x: -0.015999977, y: 0.31400004}
+      - {x: -0.015999977, y: 0.31200004}
+      - {x: -0.017999977, y: 0.31200004}
+      - {x: -0.017999977, y: 0.31000003}
+      - {x: -0.019999977, y: 0.31000003}
+      - {x: -0.019999977, y: 0.30800003}
+      - {x: -0.021999978, y: 0.30800003}
+      - {x: -0.021999978, y: 0.30400005}
+      - {x: -0.023999978, y: 0.30400005}
+      - {x: -0.023999978, y: 0.30200005}
+      - {x: -0.025999978, y: 0.30200005}
+      - {x: -0.025999978, y: 0.30000004}
+      - {x: -0.027999979, y: 0.30000004}
+      - {x: -0.027999979, y: 0.29800004}
+      - {x: -0.029999977, y: 0.29800004}
+      - {x: -0.029999977, y: 0.29400003}
+      - {x: -0.03199998, y: 0.29400003}
+      - {x: -0.03199998, y: 0.29200003}
+      - {x: -0.03399998, y: 0.29200003}
+      - {x: -0.03399998, y: 0.29000005}
+      - {x: -0.035999976, y: 0.29000005}
+      - {x: -0.035999976, y: 0.28800005}
+      - {x: -0.037999976, y: 0.28800005}
+      - {x: -0.037999976, y: 0.28400004}
+      - {x: -0.039999977, y: 0.28400004}
+      - {x: -0.039999977, y: 0.28200004}
+      - {x: -0.041999977, y: 0.28200004}
+      - {x: -0.041999977, y: 0.28000003}
+      - {x: -0.043999977, y: 0.28000003}
+      - {x: -0.043999977, y: 0.27800003}
+      - {x: -0.045999978, y: 0.27800003}
+      - {x: -0.045999978, y: 0.27400005}
+      - {x: -0.047999978, y: 0.27400005}
+      - {x: -0.047999978, y: 0.27200004}
+      - {x: -0.04999998, y: 0.27200004}
+      - {x: -0.04999998, y: 0.27000004}
+      - {x: -0.05199998, y: 0.27000004}
+      - {x: -0.05199998, y: 0.26800004}
+      - {x: -0.05399998, y: 0.26800004}
+      - {x: -0.05399998, y: 0.26600003}
+      - {x: -0.05599998, y: 0.26600003}
+      - {x: -0.05599998, y: 0.26400003}
+      - {x: -0.05799998, y: 0.26400003}
+      - {x: -0.05799998, y: 0.26000005}
+      - {x: -0.05999998, y: 0.26000005}
+      - {x: -0.05999998, y: 0.25800005}
+      - {x: -0.06199998, y: 0.25800005}
+      - {x: -0.06199998, y: 0.25600004}
+      - {x: -0.06399998, y: 0.25600004}
+      - {x: -0.06399998, y: 0.25400004}
+      - {x: -0.06599998, y: 0.25400004}
+      - {x: -0.06599998, y: 0.25200003}
+      - {x: -0.06799998, y: 0.25200003}
+      - {x: -0.06799998, y: 0.25000003}
+      - {x: -0.06999998, y: 0.25000003}
+      - {x: -0.06999998, y: 0.24800004}
+      - {x: -0.07199998, y: 0.24800004}
+      - {x: -0.07199998, y: 0.24400003}
+      - {x: -0.07399998, y: 0.24400003}
+      - {x: -0.07399998, y: 0.24200003}
+      - {x: -0.07599998, y: 0.24200003}
+      - {x: -0.07599998, y: 0.24000004}
+      - {x: -0.07799998, y: 0.24000004}
+      - {x: -0.07799998, y: 0.23800004}
+      - {x: -0.07999998, y: 0.23800004}
+      - {x: -0.07999998, y: 0.23600003}
+      - {x: -0.08199998, y: 0.23600003}
+      - {x: -0.08199998, y: 0.23400004}
+      - {x: -0.08399998, y: 0.23400004}
+      - {x: -0.08399998, y: 0.23200004}
+      - {x: -0.08599998, y: 0.23200004}
+      - {x: -0.08599998, y: 0.22800003}
+      - {x: -0.08799998, y: 0.22800003}
+      - {x: -0.08799998, y: 0.22600004}
+      - {x: -0.08999998, y: 0.22600004}
+      - {x: -0.08999998, y: 0.22400004}
+      - {x: -0.09199998, y: 0.22400004}
+      - {x: -0.09199998, y: 0.22200003}
+      - {x: -0.09399998, y: 0.22200003}
+      - {x: -0.09399998, y: 0.22000003}
+      - {x: -0.09599998, y: 0.22000003}
+      - {x: -0.09599998, y: 0.21800004}
+      - {x: -0.09799998, y: 0.21800004}
+      - {x: -0.09799998, y: 0.21600004}
+      - {x: -0.09999998, y: 0.21600004}
+      - {x: -0.09999998, y: 0.21400003}
+      - {x: -0.10199998, y: 0.21400003}
+      - {x: -0.10199998, y: 0.21000004}
+      - {x: -0.10399998, y: 0.21000004}
+      - {x: -0.10399998, y: 0.20800003}
+      - {x: -0.105999984, y: 0.20800003}
+      - {x: -0.105999984, y: 0.20600003}
+      - {x: -0.10799998, y: 0.20600003}
+      - {x: -0.10799998, y: 0.20400003}
+      - {x: -0.109999985, y: 0.20400003}
+      - {x: -0.109999985, y: 0.20200004}
+      - {x: -0.11199998, y: 0.20200004}
+      - {x: -0.11199998, y: 0.20600003}
+      - {x: -0.11799998, y: 0.20600003}
+      - {x: -0.11799998, y: 0.19800003}
+      - {x: -0.11599998, y: 0.19800003}
+      - {x: -0.11599998, y: 0.19600004}
+      - {x: -0.12199998, y: 0.19600004}
+      - {x: -0.12199998, y: 0.19400004}
+      - {x: -0.11999998, y: 0.19400004}
+      - {x: -0.11999998, y: 0.19000003}
+      - {x: -0.12199998, y: 0.19000003}
+      - {x: -0.12199998, y: 0.18800004}
+      - {x: -0.12399998, y: 0.18800004}
+      - {x: -0.12399998, y: 0.18600003}
+      - {x: -0.12599999, y: 0.18600003}
+      - {x: -0.12599999, y: 0.18400003}
+      - {x: -0.12799998, y: 0.18400003}
+      - {x: -0.12799998, y: 0.18200003}
+      - {x: -0.12999998, y: 0.18200003}
+      - {x: -0.12999998, y: 0.18000004}
+      - {x: -0.13199998, y: 0.18000004}
+      - {x: -0.13199998, y: 0.17800003}
+      - {x: -0.13399999, y: 0.17800003}
+      - {x: -0.13399999, y: 0.17600003}
+      - {x: -0.13599998, y: 0.17600003}
+      - {x: -0.13599998, y: 0.17400002}
+      - {x: -0.13799998, y: 0.17400002}
+      - {x: -0.13799998, y: 0.17200004}
+      - {x: -0.13999999, y: 0.17200004}
+      - {x: -0.13999999, y: 0.16800003}
+      - {x: -0.14199999, y: 0.16800003}
+      - {x: -0.14199999, y: 0.16600004}
+      - {x: -0.14399998, y: 0.16600004}
+      - {x: -0.14399998, y: 0.16400003}
+      - {x: -0.14599998, y: 0.16400003}
+      - {x: -0.14599998, y: 0.16200003}
+      - {x: -0.14799999, y: 0.16200003}
+      - {x: -0.14799999, y: 0.16000003}
+      - {x: -0.14999998, y: 0.16000003}
+      - {x: -0.14999998, y: 0.15800004}
+      - {x: -0.15199998, y: 0.15800004}
+      - {x: -0.15199998, y: 0.15600003}
+      - {x: -0.15399998, y: 0.15600003}
+      - {x: -0.15399998, y: 0.15400003}
+      - {x: -0.15599999, y: 0.15400003}
+      - {x: -0.15599999, y: 0.15200002}
+      - {x: -0.15799998, y: 0.15200002}
+      - {x: -0.15799998, y: 0.14800003}
+      - {x: -0.15999998, y: 0.14800003}
+      - {x: -0.15999998, y: 0.14600003}
+      - {x: -0.16199999, y: 0.14600003}
+      - {x: -0.16199999, y: 0.14400002}
+      - {x: -0.16399999, y: 0.14400002}
+      - {x: -0.16399999, y: 0.14200003}
+      - {x: -0.16599998, y: 0.14200003}
+      - {x: -0.16599998, y: 0.14000003}
+      - {x: -0.16799998, y: 0.14000003}
+      - {x: -0.16799998, y: 0.13800003}
+      - {x: -0.16999999, y: 0.13800003}
+      - {x: -0.16999999, y: 0.13600004}
+      - {x: -0.17199999, y: 0.13600004}
+      - {x: -0.17199999, y: 0.13400003}
+      - {x: -0.17399998, y: 0.13400003}
+      - {x: -0.17399998, y: 0.13000003}
+      - {x: -0.17599998, y: 0.13000003}
+      - {x: -0.17599998, y: 0.12800004}
+      - {x: -0.17799999, y: 0.12800004}
+      - {x: -0.17799999, y: 0.12600003}
+      - {x: -0.17999998, y: 0.12600003}
+      - {x: -0.17999998, y: 0.12400003}
+      - {x: -0.18199998, y: 0.12400003}
+      - {x: -0.18199998, y: 0.12200003}
+      - {x: -0.18399999, y: 0.12200003}
+      - {x: -0.18399999, y: 0.12000003}
+      - {x: -0.18599999, y: 0.12000003}
+      - {x: -0.18599999, y: 0.11800003}
+      - {x: -0.18799998, y: 0.11800003}
+      - {x: -0.18799998, y: 0.11600003}
+      - {x: -0.18999998, y: 0.11600003}
+      - {x: -0.18999998, y: 0.112000026}
+      - {x: -0.19199999, y: 0.112000026}
+      - {x: -0.19199999, y: 0.11000003}
+      - {x: -0.19399999, y: 0.11000003}
+      - {x: -0.19399999, y: 0.108000025}
+      - {x: -0.19599998, y: 0.108000025}
+      - {x: -0.19599998, y: 0.10600003}
+      - {x: -0.19799998, y: 0.10600003}
+      - {x: -0.19799998, y: 0.10400003}
+      - {x: -0.19999999, y: 0.10400003}
+      - {x: -0.19999999, y: 0.10200003}
+      - {x: -0.20199999, y: 0.10200003}
+      - {x: -0.20199999, y: 0.10000003}
+      - {x: -0.20399998, y: 0.10000003}
+      - {x: -0.20399998, y: 0.09600003}
+      - {x: -0.20599999, y: 0.09600003}
+      - {x: -0.20599999, y: 0.09400003}
+      - {x: -0.20799999, y: 0.09400003}
+      - {x: -0.20799999, y: 0.09200003}
+      - {x: -0.21, y: 0.09200003}
+      - {x: -0.21, y: 0.090000026}
+      - {x: -0.21199998, y: 0.090000026}
+      - {x: -0.21199998, y: 0.086000025}
+      - {x: -0.21399999, y: 0.086000025}
+      - {x: -0.21399999, y: 0.082000025}
+      - {x: -0.21199998, y: 0.082000025}
+      - {x: -0.21199998, y: 0.078000024}
+      - {x: -0.21799998, y: 0.078000024}
+      - {x: -0.21799998, y: 0.07600003}
+      - {x: -0.21999998, y: 0.07600003}
+      - {x: -0.21999998, y: 0.07400003}
+      - {x: -0.21799998, y: 0.07400003}
+      - {x: -0.21799998, y: 0.07200003}
+      - {x: -0.21199998, y: 0.07200003}
+      - {x: -0.21199998, y: 0.058000028}
+      - {x: -0.21, y: 0.058000028}
+      - {x: -0.21, y: 0.048000026}
+      - {x: -0.20799999, y: 0.048000026}
+      - {x: -0.20799999, y: 0.036000025}
+      - {x: -0.20599999, y: 0.036000025}
+      - {x: -0.20599999, y: 0.026000025}
+      - {x: -0.20399998, y: 0.026000025}
+      - {x: -0.20399998, y: 0.018000025}
+      - {x: -0.20199999, y: 0.018000025}
+      - {x: -0.20199999, y: 0.010000024}
+      - {x: -0.19999999, y: 0.010000024}
+      - {x: -0.19999999, y: 0.0020000238}
+      - {x: -0.19799998, y: 0.0020000238}
+      - {x: -0.19799998, y: -0.005999977}
+      - {x: -0.19599998, y: -0.005999977}
+      - {x: -0.19599998, y: -0.013999977}
+      - {x: -0.19399999, y: -0.013999977}
+      - {x: -0.19399999, y: -0.021999978}
+      - {x: -0.19199999, y: -0.021999978}
+      - {x: -0.19199999, y: -0.029999977}
+      - {x: -0.18999998, y: -0.029999977}
+      - {x: -0.18999998, y: -0.035999976}
+      - {x: -0.18799998, y: -0.035999976}
+      - {x: -0.18799998, y: -0.043999977}
+      - {x: -0.18599999, y: -0.043999977}
+      - {x: -0.18599999, y: -0.045999978}
+      - {x: -0.18799998, y: -0.045999978}
+      - {x: -0.18799998, y: -0.043999977}
+      - {x: -0.18999998, y: -0.043999977}
+      - {x: -0.18999998, y: -0.045999978}
+      - {x: -0.19399999, y: -0.045999978}
+      - {x: -0.19399999, y: -0.04999998}
+      - {x: -0.19199999, y: -0.04999998}
+      - {x: -0.19199999, y: -0.05399998}
+      - {x: -0.18399999, y: -0.05399998}
+      - {x: -0.18399999, y: -0.05799998}
+      - {x: -0.18199998, y: -0.05799998}
+      - {x: -0.18199998, y: -0.06399998}
+      - {x: -0.17999998, y: -0.06399998}
+      - {x: -0.17999998, y: -0.07199998}
+      - {x: -0.17799999, y: -0.07199998}
+      - {x: -0.17799999, y: -0.07599998}
+      - {x: -0.17599998, y: -0.07599998}
+      - {x: -0.17599998, y: -0.08199998}
+      - {x: -0.17399998, y: -0.08199998}
+      - {x: -0.17399998, y: -0.08599998}
+      - {x: -0.17799999, y: -0.08599998}
+      - {x: -0.17799999, y: -0.08999998}
+      - {x: -0.17399998, y: -0.08999998}
+      - {x: -0.17399998, y: -0.08799998}
+      - {x: -0.17199999, y: -0.08799998}
+      - {x: -0.17199999, y: -0.09199998}
+      - {x: -0.16999999, y: -0.09199998}
+      - {x: -0.16999999, y: -0.09799998}
+      - {x: -0.16799998, y: -0.09799998}
+      - {x: -0.16799998, y: -0.10199998}
+      - {x: -0.16599998, y: -0.10199998}
+      - {x: -0.16599998, y: -0.10799998}
+      - {x: -0.16399999, y: -0.10799998}
+      - {x: -0.16399999, y: -0.109999985}
+      - {x: -0.16999999, y: -0.109999985}
+      - {x: -0.16999999, y: -0.113999985}
+      - {x: -0.16799998, y: -0.113999985}
+      - {x: -0.16799998, y: -0.11199998}
+      - {x: -0.16199999, y: -0.11199998}
+      - {x: -0.16199999, y: -0.11799998}
+      - {x: -0.15999998, y: -0.11799998}
+      - {x: -0.15999998, y: -0.12199998}
+      - {x: -0.15799998, y: -0.12199998}
+      - {x: -0.15799998, y: -0.12799998}
+      - {x: -0.15599999, y: -0.12799998}
+      - {x: -0.15599999, y: -0.13199998}
+      - {x: -0.15399998, y: -0.13199998}
+      - {x: -0.15399998, y: -0.13599998}
+      - {x: -0.15199998, y: -0.13599998}
+      - {x: -0.15199998, y: -0.13999999}
+      - {x: -0.14999998, y: -0.13999999}
+      - {x: -0.14999998, y: -0.14399998}
+      - {x: -0.14799999, y: -0.14399998}
+      - {x: -0.14799999, y: -0.14799999}
+      - {x: -0.14599998, y: -0.14799999}
+      - {x: -0.14599998, y: -0.15399998}
+      - {x: -0.14399998, y: -0.15399998}
+      - {x: -0.14399998, y: -0.15799998}
+      - {x: -0.14199999, y: -0.15799998}
+      - {x: -0.14199999, y: -0.16199999}
+      - {x: -0.13999999, y: -0.16199999}
+      - {x: -0.13999999, y: -0.16399999}
+      - {x: -0.13799998, y: -0.16399999}
+      - {x: -0.13799998, y: -0.16799998}
+      - {x: -0.13599998, y: -0.16799998}
+      - {x: -0.13599998, y: -0.17199999}
+      - {x: -0.13399999, y: -0.17199999}
+      - {x: -0.13399999, y: -0.17599998}
+      - {x: -0.13199998, y: -0.17599998}
+      - {x: -0.13199998, y: -0.17999998}
+      - {x: -0.12999998, y: -0.17999998}
+      - {x: -0.12999998, y: -0.18399999}
+      - {x: -0.12799998, y: -0.18399999}
+      - {x: -0.12799998, y: -0.18799998}
+      - {x: -0.12599999, y: -0.18799998}
+      - {x: -0.12599999, y: -0.19199999}
+      - {x: -0.12399998, y: -0.19199999}
+      - {x: -0.12399998, y: -0.19399999}
+      - {x: -0.12199998, y: -0.19399999}
+      - {x: -0.12199998, y: -0.19799998}
+      - {x: -0.11999998, y: -0.19799998}
+      - {x: -0.11999998, y: -0.20199999}
+      - {x: -0.11799998, y: -0.20199999}
+      - {x: -0.11799998, y: -0.20599999}
+      - {x: -0.11599998, y: -0.20599999}
+      - {x: -0.11599998, y: -0.20799999}
+      - {x: -0.113999985, y: -0.20799999}
+      - {x: -0.113999985, y: -0.21199998}
+      - {x: -0.11199998, y: -0.21199998}
+      - {x: -0.11199998, y: -0.21599999}
+      - {x: -0.109999985, y: -0.21599999}
+      - {x: -0.109999985, y: -0.21999998}
+      - {x: -0.10799998, y: -0.21999998}
+      - {x: -0.10799998, y: -0.22199999}
+      - {x: -0.105999984, y: -0.22199999}
+      - {x: -0.105999984, y: -0.22599998}
+      - {x: -0.10399998, y: -0.22599998}
+      - {x: -0.10399998, y: -0.22999999}
+      - {x: -0.10199998, y: -0.22999999}
+      - {x: -0.10199998, y: -0.232}
+      - {x: -0.09999998, y: -0.232}
+      - {x: -0.09999998, y: -0.23599999}
+      - {x: -0.09799998, y: -0.23599999}
+      - {x: -0.09799998, y: -0.24}
+      - {x: -0.09599998, y: -0.24}
+      - {x: -0.09599998, y: -0.24199998}
+      - {x: -0.09399998, y: -0.24199998}
+      - {x: -0.09399998, y: -0.24599999}
+      - {x: -0.09199998, y: -0.24599999}
+      - {x: -0.09199998, y: -0.24999999}
+      - {x: -0.08999998, y: -0.24999999}
+      - {x: -0.08999998, y: -0.25199997}
+      - {x: -0.08799998, y: -0.25199997}
+      - {x: -0.08799998, y: -0.25599998}
+      - {x: -0.08599998, y: -0.25599998}
+      - {x: -0.08599998, y: -0.26}
+      - {x: -0.08399998, y: -0.26}
+      - {x: -0.08399998, y: -0.262}
+      - {x: -0.08199998, y: -0.262}
+      - {x: -0.08199998, y: -0.266}
+      - {x: -0.07999998, y: -0.266}
+      - {x: -0.07999998, y: -0.26999998}
+      - {x: -0.07799998, y: -0.26999998}
+      - {x: -0.07799998, y: -0.27199998}
+      - {x: -0.07599998, y: -0.27199998}
+      - {x: -0.07599998, y: -0.276}
+      - {x: -0.07399998, y: -0.276}
+      - {x: -0.07399998, y: -0.278}
+      - {x: -0.07199998, y: -0.278}
+      - {x: -0.07199998, y: -0.28199998}
+      - {x: -0.06999998, y: -0.28199998}
+      - {x: -0.06999998, y: -0.28599998}
+      - {x: -0.06799998, y: -0.28599998}
+      - {x: -0.06799998, y: -0.288}
+      - {x: -0.06599998, y: -0.288}
+      - {x: -0.06599998, y: -0.292}
+      - {x: -0.06399998, y: -0.292}
+      - {x: -0.06399998, y: -0.294}
+      - {x: -0.06199998, y: -0.294}
+      - {x: -0.06199998, y: -0.29799998}
+      - {x: -0.05999998, y: -0.29799998}
+      - {x: -0.05999998, y: -0.304}
+      - {x: -0.05799998, y: -0.304}
+      - {x: -0.05799998, y: -0.308}
+      - {x: -0.05599998, y: -0.308}
+      - {x: -0.05599998, y: -0.31399998}
+      - {x: -0.05399998, y: -0.31399998}
+      - {x: -0.05399998, y: -0.32}
+      - {x: -0.05199998, y: -0.32}
+      - {x: -0.05199998, y: -0.326}
+      - {x: -0.04999998, y: -0.326}
+      - {x: -0.04999998, y: -0.332}
+      - {x: -0.047999978, y: -0.332}
+      - {x: -0.047999978, y: -0.34}
+      - {x: -0.045999978, y: -0.34}
+      - {x: -0.045999978, y: -0.346}
+      - {x: -0.043999977, y: -0.346}
+      - {x: -0.043999977, y: -0.354}
+      - {x: -0.041999977, y: -0.354}
+      - {x: -0.041999977, y: -0.35999998}
+      - {x: -0.039999977, y: -0.35999998}
+      - {x: -0.039999977, y: -0.368}
+      - {x: -0.037999976, y: -0.368}
+      - {x: -0.037999976, y: -0.37399998}
+      - {x: -0.035999976, y: -0.37399998}
+      - {x: -0.035999976, y: -0.38}
+      - {x: -0.03399998, y: -0.38}
+      - {x: -0.03399998, y: -0.386}
+      - {x: -0.03199998, y: -0.386}
+      - {x: -0.03199998, y: -0.392}
+      - {x: -0.029999977, y: -0.392}
+      - {x: -0.029999977, y: -0.394}
+      - {x: -0.027999979, y: -0.394}
+      - {x: -0.027999979, y: -0.396}
+      - {x: -0.025999978, y: -0.396}
+      - {x: -0.025999978, y: -0.398}
+      - {x: -0.023999978, y: -0.398}
+      - {x: -0.023999978, y: -0.4}
+      - {x: -0.021999978, y: -0.4}
+      - {x: -0.021999978, y: -0.402}
+      - {x: -0.017999977, y: -0.402}
+      - {x: -0.017999977, y: -0.40399998}
+      - {x: -0.015999977, y: -0.40399998}
+      - {x: -0.015999977, y: -0.406}
+      - {x: -0.013999977, y: -0.406}
+      - {x: -0.013999977, y: -0.408}
+      - {x: -0.0099999765, y: -0.408}
+      - {x: -0.0099999765, y: -0.41}
+      - {x: -0.005999977, y: -0.41}
+      - {x: -0.005999977, y: -0.412}
+      - {x: -0.0039999764, y: -0.412}
+      - {x: -0.0039999764, y: -0.414}
+      - {x: 0.000000023748726, y: -0.414}
+      - {x: 0.000000023748726, y: -0.416}
+      - {x: 0.0020000238, y: -0.416}
+      - {x: 0.0020000238, y: -0.41799998}
+      - {x: 0.0060000243, y: -0.41799998}
+      - {x: 0.0060000243, y: -0.42}
+      - {x: 0.008000024, y: -0.42}
+      - {x: 0.008000024, y: -0.422}
+      - {x: 0.010000024, y: -0.422}
+      - {x: 0.010000024, y: -0.424}
+      - {x: 0.012000024, y: -0.424}
+      - {x: 0.012000024, y: -0.426}
+      - {x: 0.014000025, y: -0.426}
+      - {x: 0.014000025, y: -0.428}
+      - {x: 0.016000025, y: -0.428}
+      - {x: 0.016000025, y: -0.43}
+      - {x: 0.018000025, y: -0.43}
+      - {x: 0.018000025, y: -0.432}
+      - {x: 0.022000024, y: -0.432}
+      - {x: 0.022000024, y: -0.434}
+      - {x: 0.042000026, y: -0.434}
+      - {x: 0.042000026, y: -0.436}
+      - {x: 0.044000026, y: -0.436}
+      - {x: 0.044000026, y: -0.438}
+      - {x: 0.052000027, y: -0.438}
+      mReducedOutlineVertices:
+      - {x: 0.052000027, y: -0.442}
+      - {x: 0.08400003, y: -0.428}
+      - {x: 0.12800004, y: -0.05799998}
+      - {x: 0.060000025, y: 0.068000026}
+      - {x: -0.0039999764, y: 0.33000004}
+      - {x: -0.21999998, y: 0.07400003}
+      - {x: -0.16999999, y: -0.113999985}
+      - {x: -0.05999998, y: -0.29799998}
+      - {x: -0.03199998, y: -0.392}
+      mUsedIndices: 000000000f00000048000000a1000000f1000000ca0100000c0200007502000092020000
+      mResultVertices:
+      - {x: 0.052000027, y: -0.442, z: 1}
+      - {x: 0.052000027, y: -0.442, z: -1}
+      - {x: 0.08400003, y: -0.428, z: 1}
+      - {x: 0.08400003, y: -0.428, z: -1}
+      - {x: 0.12800004, y: -0.05799998, z: 1}
+      - {x: 0.12800004, y: -0.05799998, z: -1}
+      - {x: 0.060000025, y: 0.068000026, z: 1}
+      - {x: 0.060000025, y: 0.068000026, z: -1}
+      - {x: -0.0039999764, y: 0.33000004, z: 1}
+      - {x: -0.0039999764, y: 0.33000004, z: -1}
+      - {x: -0.21999998, y: 0.07400003, z: 1}
+      - {x: -0.21999998, y: 0.07400003, z: -1}
+      - {x: -0.16999999, y: -0.113999985, z: 1}
+      - {x: -0.16999999, y: -0.113999985, z: -1}
+      - {x: -0.05999998, y: -0.29799998, z: 1}
+      - {x: -0.05999998, y: -0.29799998, z: -1}
+      - {x: -0.03199998, y: -0.392, z: 1}
+      - {x: -0.03199998, y: -0.392, z: -1}
+      mResultTriangleIndices: 00000000010000000200000002000000010000000300000002000000030000000400000004000000030000000500000004000000050000000600000006000000050000000700000006000000070000000800000008000000070000000900000008000000090000000a0000000a000000090000000b0000000a0000000b0000000c0000000c0000000b0000000d0000000c0000000d0000000e0000000e0000000d0000000f0000000e0000000f00000010000000100000000f00000011000000100000001100000000000000000000001100000001000000
+    - mDetectedRegion:
+        mPointCount: 1538
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1239
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 43
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 37
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 36
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 33
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 29
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 28
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 26
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 26
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 24
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 23
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 22
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 20
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 19
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 19
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 18
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 18
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 17
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 17
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 16
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 16
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 15
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 15
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 14
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 14
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 13
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 13
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 12
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 12
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 12
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 12
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 12
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 11
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 11
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 11
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 11
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 10
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 9
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 9
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 9
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 9
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 9
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 9
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 8
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 7
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 6
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 5
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 4
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 3
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 1
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 207599
+      mRegionIsIsland: 0
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 2
+      mRegionIsIsland: 0
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 0
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+    - mDetectedRegion:
+        mPointCount: 1
+      mRegionIsIsland: 0
+      mOutlineVertexOrderIsCCW: 1
+      mIntermediateOutlineVertices: []
+      mReducedOutlineVertices: []
+      mUsedIndices: 
+      mResultVertices: []
+      mResultTriangleIndices: 
+  mAnimatedColliderParameters:
+    mIsColliderAnimationUsed: 0
+    mSpriteFrames: []
+    mPolygonCollidersToSwitch:
+    - {fileID: 4618370611421038413}
+    mEdgeCollidersToSwitch: []
+    mMeshCollidersToSwitch: []
+    mColliderIDStrings: []
+    mRemovedFrameReferenceIndex: ffffffff
+  mRegionIndependentParameters:
+    mLiveUpdate: 1
+    mAlphaOpaqueThreshold: 0.1
+    mVertexReductionDistanceTolerance: 0
+    mDefaultMaxPointCount: 20
+    mThickness: 2
+    mFlipHorizontal: 0
+    mFlipVertical: 0
+    mConvex: 0
+    mIsTrigger: 0
+    mFlipInsideOutside: 0
+    mLowerTop: 0
+    mRaiseBottom: 0
+    mCutLeft: 0
+    mCutRight: 0
+    mExpandTop: 0
+    mExpandBottom: 0
+    mExpandLeft: 0
+    mExpandRight: 0
+    mCustomRotation: 0
+    mCustomScale: {x: 1, y: 1}
+    mCustomOffset: {x: 0, y: 0, z: 0}
+    mCustomTex: {fileID: 0}
+    mSyncToParentSpriteRenderer: 0
+    mIsCustomAtlasRegionUsed: 0
+    mCustomAtlasFrameTitle: 
+    mCustomAtlasFramePositionInPixels: {x: 0, y: 0}
+    mCustomAtlasFrameSizeInPixels: {x: 500, y: 500}
+    mCustomAtlasFrameRotation: 0
+    mUpdateCalculationNeeded: 1
+    mSimpleColliderParametersChanged: 0
+    mUpdatedThickness: 2
+    mTargetColliderType: 1
+    mCopyOTSpriteFlipping: 1
+    mCopySmoothMovesSpriteDimensions: 1
+    mApplySmoothMovesScaleAnim: 1
+    mNumColliderAnimationFrames: 1
+    mCustomUnity43Sprite: {fileID: 0}
+  mColliderRegionParameters: []
+  mIslandRegionParameters:
+  - mEnableRegion: 1
+    mMaxPointCount: 9
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 0
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  mSeaRegionParameters:
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  - mEnableRegion: 0
+    mMaxPointCount: 20
+    mConvex: 0
+    mRegionUpdateCalculationNeeded: 1
+  mOTTileMapLayerIndex: 0
+  mOTTileMapMapPosX: 0
+  mOTTileMapMapPosY: 0
+  mOTTileMapWidth: 0
+  mHasOTTilesSpriteComponent: 0
+  mVersion: 2.8
+--- !u!60 &4618370611421038413
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.052000027, y: -0.442}
+      - {x: 0.08400003, y: -0.428}
+      - {x: 0.12800004, y: -0.05799998}
+      - {x: 0.060000025, y: 0.068000026}
+      - {x: -0.0039999764, y: 0.33000004}
+      - {x: -0.21999998, y: 0.07400003}
+      - {x: -0.16999999, y: -0.113999985}
+      - {x: -0.05999998, y: -0.29799998}
+      - {x: -0.03199998, y: -0.392}
+  m_UseDelaunayMesh: 0
+--- !u!114 &8547913291519919972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3d32867d128bc96abc654e13fac861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderers:
+  - {fileID: 9017542995670741268}
+  - {fileID: 6623997977776780382}
+  pickUpSound: {fileID: 8300000, guid: 118c1728ccaa7c7b3835dd7cf1d65e61, type: 3}
+  pickUpSoundVolume: 0.1
+  confetiiGo: {fileID: 4947761781349584405}
+--- !u!95 &222008517285902183
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4bd7c36903ae23c0fa6b8e3af6a83c24, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8384088171100114240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1632c2c2b00ea4fab1251e56673c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trs: {fileID: 54301256826875943}
+  pieceIAmIn: {fileID: 0}
+  duplicate: {fileID: 0}
+  objectsToLoadAndUnloadWithMe:
+  - {fileID: -8384088171100114240}
+  dontUnloadAfterLoad: 0
+  keepParented: 0
+--- !u!114 &1099654746519603050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35751477f09f2274b99d56066d6caaec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectCollider: {fileID: 4618370611421038413}
+  iconCollider: {fileID: 0}
+  onlyMakeIfExplored: 1
+  cellBoundsRect:
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  isActive: 0
+  goEntries:
+  - go: {fileID: 4492159603912673969}
+    layer: 16
+    highlightedIndicator: {fileID: 0}
+--- !u!114 &4959330399860850561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f55b826df31e544f9a64a9bb6624477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mPolygonCollidersToSwitch:
+  - {fileID: 4618370611421038413}
+  mEdgeCollidersToSwitch: []
+  mMeshCollidersToSwitch: []
+  mColliderIDStrings: []
+  mRemovedFrameReferenceIndex: ffffffff
+  mSyncToParentSpriteRenderer: 0
+  mActiveColliderIndex: 0
+  mActivePolygonCollider: {fileID: 0}
+  mActiveEdgeCollider: {fileID: 0}
+  mActiveMeshCollider: {fileID: 0}
+--- !u!1001 &4948691690404239261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 54301256826875943}
+    m_Modifications:
+    - target: {fileID: 1323810789808520, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_Name
+      value: ConfettiExplosionRainbow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323810789808520, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199324974414253692, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199324974414253692, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_SortingOrder
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 199324974414253692, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 41202005
+      objectReference: {fileID: 0}
+    - target: {fileID: 199546590568814870, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199546590568814870, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_SortingOrder
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 199546590568814870, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+--- !u!4 &4945959386631869497 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4181464141480868, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+  m_PrefabInstance: {fileID: 4948691690404239261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4947761781349584405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1323810789808520, guid: cfd858b69e847b4468421c2fd8411837, type: 3}
+  m_PrefabInstance: {fileID: 4948691690404239261}
+  m_PrefabAsset: {fileID: 0}

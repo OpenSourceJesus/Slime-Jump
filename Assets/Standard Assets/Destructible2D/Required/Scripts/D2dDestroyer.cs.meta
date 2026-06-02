@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 33fbcb04c243139438f8b0b3f28d0e81
+timeCreated: 1442044694
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Scripts/D2dDestroyer.cs
+  uploadId: 740635

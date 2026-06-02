@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5b00a7de0ddb01248a3ad80a9c634599
+timeCreated: 1442561808
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Extras/Resources/Destructible
+    2D/D2D Default + Combined Alpha.mat
+  uploadId: 740635

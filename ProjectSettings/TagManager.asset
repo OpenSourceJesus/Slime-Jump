@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Spikes Collider
+  - Water
+  - UI
+  - Player
+  - Wall
+  - Gem
+  - Arrow
+  - Hazard
+  - Repulsor
+  - Homing Missile
+  - Rock
+  - Rock Sensor
+  - Climbable
+  - World Map
+  - Saw
+  - Player Mimic
+  - Player Sensor
+  - Dead Player
+  - Playback Box
+  - Cosmetic
+  - Gel
+  - Lasso
+  - Player Bullet
+  - Enemy
+  - Bouncy Bullet
+  - Faller Object
+  - Homing Missile Shooter
+  - Arrow Shooter
+  - Saw Collider
+  m_SortingLayers:
+  - name: Back
+    uniqueID: 3282503155
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Front
+    uniqueID: 41202005
+    locked: 0
+  - name: UI
+    uniqueID: 699721339
+    locked: 0
+  m_RenderingLayers:
+  - Default

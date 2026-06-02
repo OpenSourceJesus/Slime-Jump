@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b590d5b33a3a940419868fe0003ab74a
+timeCreated: 1545151571
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Scripts/D2dSnapshotData.cs
+  uploadId: 740635

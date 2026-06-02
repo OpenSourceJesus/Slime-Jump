@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9b485b6eec09ca44e9225bc8fce075d1
+timeCreated: 1541657900
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Scripts/D2dSplitter.cs
+  uploadId: 740635

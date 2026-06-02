@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3237819887532378776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5643451497533572316}
+  - component: {fileID: 5618615111025349441}
+  m_Layer: 0
+  m_Name: Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5643451497533572316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237819887532378776}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5618615111025349441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237819887532378776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c4eecba2b94b11cb823592b26adeb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::DialogAndStory.Dialog
+  text: {fileID: 0}
+  textStr: 
+  writeSpeed: 15
+  maxCharacters: 2147483647
+  waitEvents:
+  - indicator: <w>
+    duration: 2
+  - indicator: <w...>
+    duration: 0.5
+  - indicator: <w.>
+    duration: 0.5
+  - indicator: <w;>
+    duration: 0.25
+  - indicator: <w:>
+    duration: 0.25
+  - indicator: <w,>
+    duration: 0.1
+  setMaxCharactersEvents: []
+  requireInputDeviceEvents: []
+  customDialogEvents: []
+  conversation: {fileID: 0}
+  isDone: 0
+  onBeganEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onDoneEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onLeftWhileNotDoneEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  autoEnd: 1
+  autoSetTextSize: 0

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 072ab6d6125142e458027665e40cf852
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Scripts/D2dMakeRigidbody2DDynamic.cs
+  uploadId: 740635

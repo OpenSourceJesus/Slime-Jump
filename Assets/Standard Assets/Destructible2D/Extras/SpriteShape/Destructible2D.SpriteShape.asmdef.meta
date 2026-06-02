@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 24ca626966d0b274dbc6d92a7e408eb6
+timeCreated: 1589707753
+licenseType: Store
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Extras/SpriteShape/Destructible2D.SpriteShape.asmdef
+  uploadId: 740635

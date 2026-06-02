@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1f6ca378b19144a40a0f81dc470646d8
+timeCreated: 1442654999
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Extras/Resources/Destructible
+    2D/D2D Diffuse.mat
+  uploadId: 740635

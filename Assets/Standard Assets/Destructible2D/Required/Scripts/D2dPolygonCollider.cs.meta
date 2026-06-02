@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: fa88d898dfcfa924e879ff88c6a0f41c
+timeCreated: 1541657900
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Scripts/D2dPolygonCollider.cs
+  uploadId: 740635

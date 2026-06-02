@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 12898808c53bd7b4bad56913d5ed420c
+timeCreated: 1541657900
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Required/Scripts/D2dImpactDamage.cs
+  uploadId: 740635

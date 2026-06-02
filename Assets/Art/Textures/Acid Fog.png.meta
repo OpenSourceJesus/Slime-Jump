@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: f1af52099a93e38dcaa85e5671544410
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7171526396657697690
+    second: Acid Fog 1_0
+  - first:
+      213: 7433420721017314243
+    second: Acid Fog 1_1
+  - first:
+      213: -6114956318116283160
+    second: Acid Fog 1_2
+  - first:
+      213: 2660817146199144389
+    second: Acid Fog 1_3
+  - first:
+      213: -8080764281914180835
+    second: Acid Fog 1_4
+  - first:
+      213: -1486859521055616625
+    second: Acid Fog 1_5
+  - first:
+      213: 7127020553740624664
+    second: Acid Fog 1_6
+  - first:
+      213: 2288401680611062813
+    second: Acid Fog 1_7
+  - first:
+      213: 1745305337776554321
+    second: Acid Fog 1_8
+  - first:
+      213: -4891112093468215841
+    second: Acid Fog 1_9
+  - first:
+      213: -923687253869679108
+    second: Acid Fog 1_10
+  - first:
+      213: -6179879238083928580
+    second: Acid Fog 1_11
+  - first:
+      213: 7648367408833735002
+    second: Acid Fog 1_12
+  - first:
+      213: 8816719087379721803
+    second: Acid Fog 1_13
+  - first:
+      213: 3624328013502355442
+    second: Acid Fog 1_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Acid Fog_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2c65b66688a0dbd93508950933d412
+      internalID: 884537405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c0b9413a368818934a0be2d32c544cd0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Acid Fog 1_0: 7171526396657697690
+      Acid Fog 1_1: 7433420721017314243
+      Acid Fog 1_10: -923687253869679108
+      Acid Fog 1_11: -6179879238083928580
+      Acid Fog 1_12: 7648367408833735002
+      Acid Fog 1_13: 8816719087379721803
+      Acid Fog 1_14: 3624328013502355442
+      Acid Fog 1_2: -6114956318116283160
+      Acid Fog 1_3: 2660817146199144389
+      Acid Fog 1_4: -8080764281914180835
+      Acid Fog 1_5: -1486859521055616625
+      Acid Fog 1_6: 7127020553740624664
+      Acid Fog 1_7: 2288401680611062813
+      Acid Fog 1_8: 1745305337776554321
+      Acid Fog 1_9: -4891112093468215841
+      Acid Fog_0: 884537405
+      Acid Fog_1: 277925177
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1 @@
+Scripts are found under 'Assets/Standard Assets'

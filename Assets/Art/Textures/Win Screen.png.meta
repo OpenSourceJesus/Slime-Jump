@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: bf5db361fcc61b1dc982ee465e9db91a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -402154211862989798
+    second: congrats_0
+  - first:
+      213: 5884797685908655715
+    second: congrats_1
+  - first:
+      213: 4618180532430859716
+    second: congrats_2
+  - first:
+      213: -1732112311265445692
+    second: congrats_3
+  - first:
+      213: 7655251105967231561
+    second: congrats_4
+  - first:
+      213: -478797586755678351
+    second: congrats_5
+  - first:
+      213: 5684562754203658700
+    second: congrats_6
+  - first:
+      213: -8349537527122914421
+    second: congrats_7
+  - first:
+      213: -3223106199092690603
+    second: congrats_8
+  - first:
+      213: 4547123931712463892
+    second: congrats_9
+  - first:
+      213: -1073824492164724824
+    second: congrats_10
+  - first:
+      213: -8299242525626531680
+    second: congrats_11
+  - first:
+      213: -8007242979319907813
+    second: congrats_12
+  - first:
+      213: 774586256890063741
+    second: congrats_13
+  - first:
+      213: -5240664841023242598
+    second: congrats_14
+  - first:
+      213: -1450641217966408672
+    second: congrats_15
+  - first:
+      213: 8023965358268910089
+    second: congrats_16
+  - first:
+      213: -338800521515990314
+    second: congrats_17
+  - first:
+      213: -5458316536834186952
+    second: congrats_18
+  - first:
+      213: -473053378456116734
+    second: congrats_19
+  - first:
+      213: 1578285012440683858
+    second: congrats_20
+  - first:
+      213: 4354797575447080277
+    second: congrats_21
+  - first:
+      213: -86813224401724750
+    second: congrats_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: congrats_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1500
+        height: 850
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25599d05bd137e510800000000000000
+      internalID: 1578285012440683858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Screen_0
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 170
+        width: 649
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fc0089e71cd2a458aa592dc0724254
+      internalID: -1639516693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5de3382c61b8ee53cb350bbda7d26434
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Win Screen_0: -1639516693
+      congrats_0: -402154211862989798
+      congrats_1: 5884797685908655715
+      congrats_10: -1073824492164724824
+      congrats_11: -8299242525626531680
+      congrats_12: -8007242979319907813
+      congrats_13: 774586256890063741
+      congrats_14: -5240664841023242598
+      congrats_15: -1450641217966408672
+      congrats_16: 8023965358268910089
+      congrats_17: -338800521515990314
+      congrats_18: -5458316536834186952
+      congrats_19: -473053378456116734
+      congrats_2: 4618180532430859716
+      congrats_20: 1578285012440683858
+      congrats_21: 4354797575447080277
+      congrats_22: -86813224401724750
+      congrats_3: -1732112311265445692
+      congrats_4: 7655251105967231561
+      congrats_5: -478797586755678351
+      congrats_6: 5684562754203658700
+      congrats_7: -8349537527122914421
+      congrats_8: -3223106199092690603
+      congrats_9: 4547123931712463892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

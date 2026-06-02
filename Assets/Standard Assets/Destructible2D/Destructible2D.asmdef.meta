@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e90303b9ab276654e854d8d4da3a38b7
+timeCreated: 1589707753
+licenseType: Store
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18125
+  packageName: Destructible 2D
+  packageVersion: 4.2.1
+  assetPath: Assets/Standard Assets/Destructible2D/Destructible2D.asmdef
+  uploadId: 740635
