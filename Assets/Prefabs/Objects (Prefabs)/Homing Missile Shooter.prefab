@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 246493065278901920}
   - component: {fileID: 8217422304454465850}
   - component: {fileID: 6743392639157422335}
+  - component: {fileID: 7665393741606899461}
   m_Layer: 29
   m_Name: Graphics And Collider
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
 --- !u!212 &8217422304454465850
 SpriteRenderer:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -93,6 +94,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!60 &6743392639157422335
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -163,6 +165,339 @@ PolygonCollider2D:
       - {x: -0.45758453, y: -0.23852657}
       - {x: -0.45832905, y: -0.39863518}
   m_UseDelaunayMesh: 0
+--- !u!114 &7665393741606899461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2337584318711096484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
+  m_ShadowGroup: 0
+  m_Priority: 0
+  m_ComponentVersion: 6
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: {_typeName: int, _data: f305a7c30000000055b174027be6b429}
+  m_ShapePath:
+  - {x: -0.40760875, y: -0.54, z: 0}
+  - {x: -0.40760875, y: 0.45999998, z: 0}
+  - {x: 0.4981884, y: 0.45999998, z: 0}
+  - {x: 0.4981884, y: -0.54, z: 0}
+  m_ShapePathHash: 0
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 6743392639157422335}
+  m_ShadowShape2DProvider:
+    rid: 751686018006516685
+  m_ShadowCastingSource: 2
+  m_ShadowMesh:
+    rid: 751686018006516681
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 2
+  m_PreviousShadowShape2DSource: {fileID: 6743392639157422335}
+  m_SelectionSources:
+    rid: 751686018006516682
+  references:
+    version: 2
+    RefIds:
+    - rid: 751686018006516681
+      type: {class: ShadowMesh2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Vertices:
+        - position: {x: 0.5399933, y: -0.39311218, z: 0}
+          tangent: {x: -1, y: 0, z: 0.28637695, w: 0.24215698}
+        - position: {x: 0.28637695, y: 0.24215698, z: 0}
+          tangent: {x: -1, y: 0, z: 0.33992004, w: 0.26264954}
+        - position: {x: 0.33992004, y: 0.26264954, z: 0}
+          tangent: {x: -1, y: 0, z: 0.28471375, w: 0.40068054}
+        - position: {x: 0.28471375, y: 0.40068054, z: 0}
+          tangent: {x: -1, y: 0, z: 0.21632385, w: 0.38949585}
+        - position: {x: 0.21632385, y: 0.38949585, z: 0}
+          tangent: {x: -1, y: 0, z: 0.20666504, w: 0.40881348}
+        - position: {x: 0.20666504, y: 0.40881348, z: 0}
+          tangent: {x: -1, y: 0, z: 0.1502533, w: 0.49497986}
+        - position: {x: 0.1502533, y: 0.49497986, z: 0}
+          tangent: {x: -1, y: 0, z: -0.14115906, w: 0.4885254}
+        - position: {x: -0.14115906, y: 0.4885254, z: 0}
+          tangent: {x: -1, y: 0, z: -0.21121216, w: 0.46195984}
+        - position: {x: -0.21121216, y: 0.46195984, z: 0}
+          tangent: {x: -1, y: 0, z: -0.2715912, w: 0.38949585}
+        - position: {x: -0.2715912, y: 0.38949585, z: 0}
+          tangent: {x: -1, y: 0, z: -0.31748962, w: 0.2904663}
+        - position: {x: -0.31748962, y: 0.2904663, z: 0}
+          tangent: {x: -1, y: 0, z: -0.31748962, w: 0.21557617}
+        - position: {x: -0.31748962, y: 0.21557617, z: 0}
+          tangent: {x: -1, y: 0, z: -0.25709534, w: 0.14794922}
+        - position: {x: -0.25709534, y: 0.14794922, z: 0}
+          tangent: {x: -1, y: 0, z: -0.25468445, w: 0.12861633}
+        - position: {x: -0.25468445, y: 0.12861633, z: 0}
+          tangent: {x: -1, y: 0, z: -0.25468445, w: 0.068237305}
+        - position: {x: -0.25468445, y: 0.068237305, z: 0}
+          tangent: {x: -1, y: 0, z: -0.2605133, w: -0.020217896}
+        - position: {x: -0.2605133, y: -0.020217896, z: 0}
+          tangent: {x: -1, y: 0, z: -0.33439636, w: -0.03804016}
+        - position: {x: -0.33439636, y: -0.03804016, z: 0}
+          tangent: {x: -1, y: 0, z: -0.37304688, w: -0.062194824}
+        - position: {x: -0.37304688, y: -0.062194824, z: 0}
+          tangent: {x: -1, y: 0, z: -0.40927124, w: -0.0960083}
+        - position: {x: -0.40927124, y: -0.0960083, z: 0}
+          tangent: {x: -1, y: 0, z: -0.4334259, w: -0.13224792}
+        - position: {x: -0.4334259, y: -0.13224792, z: 0}
+          tangent: {x: -1, y: 0, z: -0.44551086, w: -0.16847229}
+        - position: {x: -0.44551086, y: -0.16847229, z: 0}
+          tangent: {x: -1, y: 0, z: -0.45758057, w: -0.23852539}
+        - position: {x: -0.45758057, y: -0.23852539, z: 0}
+          tangent: {x: -1, y: 0, z: -0.45832825, w: -0.39863586}
+        - position: {x: -0.45832825, y: -0.39863586, z: 0}
+          tangent: {x: -1, y: 0, z: 0.5399933, w: -0.39311218}
+        - position: {x: 0.5399933, y: -0.39311218, z: 0}
+          tangent: {x: 0, y: 0, z: 0.28637695, w: 0.24215698}
+        - position: {x: 0.28637695, y: 0.24215698, z: 0}
+          tangent: {x: 0, y: 0, z: 0.5399933, w: -0.39311218}
+        - position: {x: 0.5399933, y: -0.39311218, z: 0}
+          tangent: {x: 1, y: 0, z: 0.28637695, w: 0.24215698}
+        - position: {x: 0.5399933, y: -0.39311218, z: 0}
+          tangent: {x: 3, y: 0, z: 0.28637695, w: 0.24215698}
+        - position: {x: 0.28637695, y: 0.24215698, z: 0}
+          tangent: {x: 0, y: 0, z: 0.33992004, w: 0.26264954}
+        - position: {x: 0.33992004, y: 0.26264954, z: 0}
+          tangent: {x: 0, y: 0, z: 0.28637695, w: 0.24215698}
+        - position: {x: 0.28637695, y: 0.24215698, z: 0}
+          tangent: {x: 1, y: 0, z: 0.33992004, w: 0.26264954}
+        - position: {x: 0.28637695, y: 0.24215698, z: 0}
+          tangent: {x: 3, y: 0, z: 0.33992004, w: 0.26264954}
+        - position: {x: 0.33992004, y: 0.26264954, z: 0}
+          tangent: {x: 0, y: 0, z: 0.28471375, w: 0.40068054}
+        - position: {x: 0.28471375, y: 0.40068054, z: 0}
+          tangent: {x: 0, y: 0, z: 0.33992004, w: 0.26264954}
+        - position: {x: 0.33992004, y: 0.26264954, z: 0}
+          tangent: {x: 1, y: 0, z: 0.28471375, w: 0.40068054}
+        - position: {x: 0.33992004, y: 0.26264954, z: 0}
+          tangent: {x: 3, y: 0, z: 0.28471375, w: 0.40068054}
+        - position: {x: 0.28471375, y: 0.40068054, z: 0}
+          tangent: {x: 0, y: 0, z: 0.21632385, w: 0.38949585}
+        - position: {x: 0.21632385, y: 0.38949585, z: 0}
+          tangent: {x: 0, y: 0, z: 0.28471375, w: 0.40068054}
+        - position: {x: 0.28471375, y: 0.40068054, z: 0}
+          tangent: {x: 1, y: 0, z: 0.21632385, w: 0.38949585}
+        - position: {x: 0.28471375, y: 0.40068054, z: 0}
+          tangent: {x: 3, y: 0, z: 0.21632385, w: 0.38949585}
+        - position: {x: 0.21632385, y: 0.38949585, z: 0}
+          tangent: {x: 0, y: 0, z: 0.20666504, w: 0.40881348}
+        - position: {x: 0.20666504, y: 0.40881348, z: 0}
+          tangent: {x: 0, y: 0, z: 0.21632385, w: 0.38949585}
+        - position: {x: 0.21632385, y: 0.38949585, z: 0}
+          tangent: {x: 1, y: 0, z: 0.20666504, w: 0.40881348}
+        - position: {x: 0.21632385, y: 0.38949585, z: 0}
+          tangent: {x: 3, y: 0, z: 0.20666504, w: 0.40881348}
+        - position: {x: 0.20666504, y: 0.40881348, z: 0}
+          tangent: {x: 0, y: 0, z: 0.1502533, w: 0.49497986}
+        - position: {x: 0.1502533, y: 0.49497986, z: 0}
+          tangent: {x: 0, y: 0, z: 0.20666504, w: 0.40881348}
+        - position: {x: 0.20666504, y: 0.40881348, z: 0}
+          tangent: {x: 1, y: 0, z: 0.1502533, w: 0.49497986}
+        - position: {x: 0.20666504, y: 0.40881348, z: 0}
+          tangent: {x: 3, y: 0, z: 0.1502533, w: 0.49497986}
+        - position: {x: 0.1502533, y: 0.49497986, z: 0}
+          tangent: {x: 0, y: 0, z: -0.14115906, w: 0.4885254}
+        - position: {x: -0.14115906, y: 0.4885254, z: 0}
+          tangent: {x: 0, y: 0, z: 0.1502533, w: 0.49497986}
+        - position: {x: 0.1502533, y: 0.49497986, z: 0}
+          tangent: {x: 1, y: 0, z: -0.14115906, w: 0.4885254}
+        - position: {x: 0.1502533, y: 0.49497986, z: 0}
+          tangent: {x: 3, y: 0, z: -0.14115906, w: 0.4885254}
+        - position: {x: -0.14115906, y: 0.4885254, z: 0}
+          tangent: {x: 0, y: 0, z: -0.21121216, w: 0.46195984}
+        - position: {x: -0.21121216, y: 0.46195984, z: 0}
+          tangent: {x: 0, y: 0, z: -0.14115906, w: 0.4885254}
+        - position: {x: -0.14115906, y: 0.4885254, z: 0}
+          tangent: {x: 1, y: 0, z: -0.21121216, w: 0.46195984}
+        - position: {x: -0.14115906, y: 0.4885254, z: 0}
+          tangent: {x: 3, y: 0, z: -0.21121216, w: 0.46195984}
+        - position: {x: -0.21121216, y: 0.46195984, z: 0}
+          tangent: {x: 0, y: 0, z: -0.2715912, w: 0.38949585}
+        - position: {x: -0.2715912, y: 0.38949585, z: 0}
+          tangent: {x: 0, y: 0, z: -0.21121216, w: 0.46195984}
+        - position: {x: -0.21121216, y: 0.46195984, z: 0}
+          tangent: {x: 1, y: 0, z: -0.2715912, w: 0.38949585}
+        - position: {x: -0.21121216, y: 0.46195984, z: 0}
+          tangent: {x: 3, y: 0, z: -0.2715912, w: 0.38949585}
+        - position: {x: -0.2715912, y: 0.38949585, z: 0}
+          tangent: {x: 0, y: 0, z: -0.31748962, w: 0.2904663}
+        - position: {x: -0.31748962, y: 0.2904663, z: 0}
+          tangent: {x: 0, y: 0, z: -0.2715912, w: 0.38949585}
+        - position: {x: -0.2715912, y: 0.38949585, z: 0}
+          tangent: {x: 1, y: 0, z: -0.31748962, w: 0.2904663}
+        - position: {x: -0.2715912, y: 0.38949585, z: 0}
+          tangent: {x: 3, y: 0, z: -0.31748962, w: 0.2904663}
+        - position: {x: -0.31748962, y: 0.2904663, z: 0}
+          tangent: {x: 0, y: 0, z: -0.31748962, w: 0.21557617}
+        - position: {x: -0.31748962, y: 0.21557617, z: 0}
+          tangent: {x: 0, y: 0, z: -0.31748962, w: 0.2904663}
+        - position: {x: -0.31748962, y: 0.2904663, z: 0}
+          tangent: {x: 1, y: 0, z: -0.31748962, w: 0.21557617}
+        - position: {x: -0.31748962, y: 0.2904663, z: 0}
+          tangent: {x: 3, y: 0, z: -0.31748962, w: 0.21557617}
+        - position: {x: -0.31748962, y: 0.21557617, z: 0}
+          tangent: {x: 0, y: 0, z: -0.25709534, w: 0.14794922}
+        - position: {x: -0.25709534, y: 0.14794922, z: 0}
+          tangent: {x: 0, y: 0, z: -0.31748962, w: 0.21557617}
+        - position: {x: -0.31748962, y: 0.21557617, z: 0}
+          tangent: {x: 1, y: 0, z: -0.25709534, w: 0.14794922}
+        - position: {x: -0.31748962, y: 0.21557617, z: 0}
+          tangent: {x: 3, y: 0, z: -0.25709534, w: 0.14794922}
+        - position: {x: -0.25709534, y: 0.14794922, z: 0}
+          tangent: {x: 0, y: 0, z: -0.25468445, w: 0.12861633}
+        - position: {x: -0.25468445, y: 0.12861633, z: 0}
+          tangent: {x: 0, y: 0, z: -0.25709534, w: 0.14794922}
+        - position: {x: -0.25709534, y: 0.14794922, z: 0}
+          tangent: {x: 1, y: 0, z: -0.25468445, w: 0.12861633}
+        - position: {x: -0.25709534, y: 0.14794922, z: 0}
+          tangent: {x: 3, y: 0, z: -0.25468445, w: 0.12861633}
+        - position: {x: -0.25468445, y: 0.12861633, z: 0}
+          tangent: {x: 0, y: 0, z: -0.25468445, w: 0.068237305}
+        - position: {x: -0.25468445, y: 0.068237305, z: 0}
+          tangent: {x: 0, y: 0, z: -0.25468445, w: 0.12861633}
+        - position: {x: -0.25468445, y: 0.12861633, z: 0}
+          tangent: {x: 1, y: 0, z: -0.25468445, w: 0.068237305}
+        - position: {x: -0.25468445, y: 0.12861633, z: 0}
+          tangent: {x: 3, y: 0, z: -0.25468445, w: 0.068237305}
+        - position: {x: -0.25468445, y: 0.068237305, z: 0}
+          tangent: {x: 0, y: 0, z: -0.2605133, w: -0.020217896}
+        - position: {x: -0.2605133, y: -0.020217896, z: 0}
+          tangent: {x: 0, y: 0, z: -0.25468445, w: 0.068237305}
+        - position: {x: -0.25468445, y: 0.068237305, z: 0}
+          tangent: {x: 1, y: 0, z: -0.2605133, w: -0.020217896}
+        - position: {x: -0.25468445, y: 0.068237305, z: 0}
+          tangent: {x: 3, y: 0, z: -0.2605133, w: -0.020217896}
+        - position: {x: -0.2605133, y: -0.020217896, z: 0}
+          tangent: {x: 0, y: 0, z: -0.33439636, w: -0.03804016}
+        - position: {x: -0.33439636, y: -0.03804016, z: 0}
+          tangent: {x: 0, y: 0, z: -0.2605133, w: -0.020217896}
+        - position: {x: -0.2605133, y: -0.020217896, z: 0}
+          tangent: {x: 1, y: 0, z: -0.33439636, w: -0.03804016}
+        - position: {x: -0.2605133, y: -0.020217896, z: 0}
+          tangent: {x: 3, y: 0, z: -0.33439636, w: -0.03804016}
+        - position: {x: -0.33439636, y: -0.03804016, z: 0}
+          tangent: {x: 0, y: 0, z: -0.37304688, w: -0.062194824}
+        - position: {x: -0.37304688, y: -0.062194824, z: 0}
+          tangent: {x: 0, y: 0, z: -0.33439636, w: -0.03804016}
+        - position: {x: -0.33439636, y: -0.03804016, z: 0}
+          tangent: {x: 1, y: 0, z: -0.37304688, w: -0.062194824}
+        - position: {x: -0.33439636, y: -0.03804016, z: 0}
+          tangent: {x: 3, y: 0, z: -0.37304688, w: -0.062194824}
+        - position: {x: -0.37304688, y: -0.062194824, z: 0}
+          tangent: {x: 0, y: 0, z: -0.40927124, w: -0.0960083}
+        - position: {x: -0.40927124, y: -0.0960083, z: 0}
+          tangent: {x: 0, y: 0, z: -0.37304688, w: -0.062194824}
+        - position: {x: -0.37304688, y: -0.062194824, z: 0}
+          tangent: {x: 1, y: 0, z: -0.40927124, w: -0.0960083}
+        - position: {x: -0.37304688, y: -0.062194824, z: 0}
+          tangent: {x: 3, y: 0, z: -0.40927124, w: -0.0960083}
+        - position: {x: -0.40927124, y: -0.0960083, z: 0}
+          tangent: {x: 0, y: 0, z: -0.4334259, w: -0.13224792}
+        - position: {x: -0.4334259, y: -0.13224792, z: 0}
+          tangent: {x: 0, y: 0, z: -0.40927124, w: -0.0960083}
+        - position: {x: -0.40927124, y: -0.0960083, z: 0}
+          tangent: {x: 1, y: 0, z: -0.4334259, w: -0.13224792}
+        - position: {x: -0.40927124, y: -0.0960083, z: 0}
+          tangent: {x: 3, y: 0, z: -0.4334259, w: -0.13224792}
+        - position: {x: -0.4334259, y: -0.13224792, z: 0}
+          tangent: {x: 0, y: 0, z: -0.44551086, w: -0.16847229}
+        - position: {x: -0.44551086, y: -0.16847229, z: 0}
+          tangent: {x: 0, y: 0, z: -0.4334259, w: -0.13224792}
+        - position: {x: -0.4334259, y: -0.13224792, z: 0}
+          tangent: {x: 1, y: 0, z: -0.44551086, w: -0.16847229}
+        - position: {x: -0.4334259, y: -0.13224792, z: 0}
+          tangent: {x: 3, y: 0, z: -0.44551086, w: -0.16847229}
+        - position: {x: -0.44551086, y: -0.16847229, z: 0}
+          tangent: {x: 0, y: 0, z: -0.45758057, w: -0.23852539}
+        - position: {x: -0.45758057, y: -0.23852539, z: 0}
+          tangent: {x: 0, y: 0, z: -0.44551086, w: -0.16847229}
+        - position: {x: -0.44551086, y: -0.16847229, z: 0}
+          tangent: {x: 1, y: 0, z: -0.45758057, w: -0.23852539}
+        - position: {x: -0.44551086, y: -0.16847229, z: 0}
+          tangent: {x: 3, y: 0, z: -0.45758057, w: -0.23852539}
+        - position: {x: -0.45758057, y: -0.23852539, z: 0}
+          tangent: {x: 0, y: 0, z: -0.45832825, w: -0.39863586}
+        - position: {x: -0.45832825, y: -0.39863586, z: 0}
+          tangent: {x: 0, y: 0, z: -0.45758057, w: -0.23852539}
+        - position: {x: -0.45758057, y: -0.23852539, z: 0}
+          tangent: {x: 1, y: 0, z: -0.45832825, w: -0.39863586}
+        - position: {x: -0.45758057, y: -0.23852539, z: 0}
+          tangent: {x: 3, y: 0, z: -0.45832825, w: -0.39863586}
+        - position: {x: -0.45832825, y: -0.39863586, z: 0}
+          tangent: {x: 0, y: 0, z: 0.5399933, w: -0.39311218}
+        - position: {x: 0.5399933, y: -0.39311218, z: 0}
+          tangent: {x: 0, y: 0, z: -0.45832825, w: -0.39863586}
+        - position: {x: -0.45832825, y: -0.39863586, z: 0}
+          tangent: {x: 1, y: 0, z: 0.5399933, w: -0.39311218}
+        - position: {x: -0.45832825, y: -0.39863586, z: 0}
+          tangent: {x: 3, y: 0, z: 0.5399933, w: -0.39311218}
+        m_Indices: {_typeName: int, _data: 000000001700000018000000180000000100000000000000010000001b0000001c0000001c0000000200000001000000020000001f00000020000000200000000300000002000000030000002300000024000000240000000400000003000000040000002700000028000000280000000500000004000000050000002b0000002c0000002c0000000600000005000000060000002f00000030000000300000000700000006000000070000003300000034000000340000000800000007000000080000003700000038000000380000000900000008000000090000003b0000003c0000003c0000000a000000090000000a0000003f00000040000000400000000b0000000a0000000b0000004300000044000000440000000c0000000b0000000c0000004700000048000000480000000d0000000c0000000d0000004b0000004c0000004c0000000e0000000d0000000e0000004f00000050000000500000000f0000000e0000000f000000530000005400000054000000100000000f000000100000005700000058000000580000001100000010000000110000005b0000005c0000005c0000001200000011000000120000005f00000060000000600000001300000012000000130000006300000064000000640000001400000013000000140000006700000068000000680000001500000014000000150000006b0000006c0000006c0000001600000015000000160000006f0000007000000070000000000000001600000000000000190000001a000000010000001d0000001e00000002000000210000002200000003000000250000002600000004000000290000002a000000050000002d0000002e00000006000000310000003200000007000000350000003600000008000000390000003a000000090000003d0000003e0000000a00000041000000420000000b00000045000000460000000c000000490000004a0000000d0000004d0000004e0000000e00000051000000520000000f000000550000005600000010000000590000005a000000110000005d0000005e00000012000000610000006200000013000000650000006600000014000000690000006a000000150000006d0000006e000000160000007100000072000000}
+        m_LocalBounds:
+          m_Center: {x: 0.04083252, y: 0.048171997, z: 0}
+          m_Extent: {x: 0.49916077, y: 0.44680786, z: 0}
+        m_EdgeProcessing: 1
+        m_TrimEdge: 0
+        m_FlipX: 0
+        m_FlipY: 0
+        m_InitialTrim: 0.09
+    - rid: 751686018006516682
+      type: {class: Shadow2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_SelectedHashCode: 302444090
+        m_SelectedSource:
+          rid: 751686018006516687
+        m_Provider2DCache:
+          rid: 751686018006516683
+    - rid: 751686018006516683
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.ShadowShape2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache:
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_SpriteRenderer
+            m_Component: {fileID: 8217422304454465850}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516684
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_Collider2D
+            m_Component: {fileID: 6743392639157422335}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516685
+    - rid: 751686018006516684
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516685
+      type: {class: ShadowShape2DProvider_Collider2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516687
+      type: {class: Shadow2DProviderSource, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_HashCode: 302444090
+        m_SourceType: 2
+        m_MenuPriority: 0
+        m_MenuName:
+          m_Text: PolygonCollider2D
+          m_Image: {fileID: 0}
+          m_Tooltip: Implemented by ShadowShape2DProvider_Collider2D
+          m_TextWithWhitespace: "PolygonCollider2D\u200B"
+        m_Provider:
+          rid: 751686018006516685
+        m_Component: {fileID: 6743392639157422335}
 --- !u!1 &5692016155244570819
 GameObject:
   m_ObjectHideFlags: 0

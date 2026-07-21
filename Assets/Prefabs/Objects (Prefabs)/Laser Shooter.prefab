@@ -255,6 +255,7 @@ GameObject:
   - component: {fileID: 407193319693844957}
   - component: {fileID: 8196969617934898273}
   - component: {fileID: 2284112653960329315}
+  - component: {fileID: 3375044113779765811}
   m_Layer: 19
   m_Name: Graphics And Collider
   m_TagString: Untagged
@@ -279,7 +280,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
 --- !u!212 &8196969617934898273
 SpriteRenderer:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -336,6 +337,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!60 &2284112653960329315
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -404,3 +406,105 @@ PolygonCollider2D:
       - {x: 0.097784504, y: -0.12918884}
       - {x: 0.14117618, y: -0.07988012}
   m_UseDelaunayMesh: 0
+--- !u!114 &3375044113779765811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8075603800224929594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
+  m_ShadowGroup: 0
+  m_Priority: 0
+  m_ComponentVersion: 6
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: {_typeName: int, _data: f305a7c30000000055b174027be6b429}
+  m_ShapePath:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_ShapePathHash: 1268118805
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 2284112653960329315}
+  m_ShadowShape2DProvider:
+    rid: -2
+  m_ShadowCastingSource: 2
+  m_ShadowMesh:
+    rid: 751686018006516215
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 2
+  m_PreviousShadowShape2DSource: {fileID: 2284112653960329315}
+  m_SelectionSources:
+    rid: 751686018006516216
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 751686018006516215
+      type: {class: ShadowMesh2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Vertices: []
+        m_Indices: {_typeName: int, _data: }
+        m_LocalBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0, y: 0, z: 0}
+        m_EdgeProcessing: 1
+        m_TrimEdge: 0
+        m_FlipX: 0
+        m_FlipY: 0
+        m_InitialTrim: 0
+    - rid: 751686018006516216
+      type: {class: Shadow2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_SelectedHashCode: 1
+        m_SelectedSource:
+          rid: 751686018006516228
+        m_Provider2DCache:
+          rid: 751686018006516217
+    - rid: 751686018006516217
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.ShadowShape2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache:
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_SpriteRenderer
+            m_Component: {fileID: 8196969617934898273}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516222
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_Collider2D
+            m_Component: {fileID: 2284112653960329315}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516223
+    - rid: 751686018006516222
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516223
+      type: {class: ShadowShape2DProvider_Collider2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516228
+      type: {class: Shadow2DSource_ShapeEditor, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_HashCode: 0
+        m_SourceType: 0
+        m_MenuPriority: -2147483648
+        m_MenuName:
+          m_Text: Shape Editor
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+          m_TextWithWhitespace: "Shape Editor\u200B"

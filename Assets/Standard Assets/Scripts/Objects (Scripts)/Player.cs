@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using Destructible2D;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using UnityEngine.Rendering.Universal;
 
 namespace SlimeJump
 {
@@ -36,6 +37,7 @@ namespace SlimeJump
 		public Rigidbody2D rigid;
 		public SpriteRenderer spriteRenderer;
 		public Collider2D collider;
+		public ShadowCaster2D shadowCaster;
 		public Collider2D climbableSensor;
 		public Collider2D wallSensor;
 		[HideInInspector]
@@ -224,6 +226,9 @@ namespace SlimeJump
 			multSpeed = 1;
 			whatICollideWith = Physics2D.GetLayerCollisionMask(gameObject.layer);
 			whatIsNotClimbable = whatICollideWith.Remove("Climbable");
+			// Don't treat kill-on-contact objects as walls — otherwise the move linecast stops the
+			// player just short of touching them when chasing from behind (same direction).
+			whatICollideWith = whatICollideWith.Remove("Arrow", "Hazard", "Homing Missile", "Saw", "Enemy", "Bouncy Bullet");
 			items = itemsParent.GetComponentsInChildren<Item>();
 			useableItems = itemsParent.GetComponentsInChildren<UseableItem>();
 			weapons = itemsParent.GetComponentsInChildren<Weapon>();
@@ -278,8 +283,9 @@ namespace SlimeJump
 		{
 			if (GameManager.paused)
 				return;
-			GameManager.Timer += Time.deltaTime * SettingsMenu.TimeSpeed;
-			GameManager.instance.timerText.text = GameManager.Timer.ToString("F1");
+			GameManager.Timer += Time.deltaTime * GameManager.instance.timeSpeed;
+			if (GameManager.instance.timerText.gameObject.activeSelf)
+				GameManager.instance.timerText.text = GameManager.Timer.ToString("F1");
 			if (respawnTimer > 0)
 			{
 				respawnTimer -= Time.deltaTime;
@@ -634,6 +640,7 @@ namespace SlimeJump
 		{
 			if (respawnTimer > 0)
 				return;
+			shadowCaster.enabled = false;
 			CloudSpawner.instance.enabled = false;
 			respawnTimer = respawnDelay;
 			SoundEffect soundEffect = AudioManager.instance.MakeSoundEffect(deathSound, Vector3.zero, deathSoundVolume);
@@ -692,6 +699,7 @@ namespace SlimeJump
 
 		void Respawn ()
 		{
+			shadowCaster.enabled = true;
 			EventManager.events.Clear();
 			EventManager.instance.enabled = false;
 			SoundEffect soundEffect = AudioManager.instance.MakeSoundEffect(respawnSound, Vector3.zero, respawnSoundVolume);

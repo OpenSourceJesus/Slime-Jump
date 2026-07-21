@@ -93,7 +93,6 @@ namespace SlimeJump
 			set
 			{
 				SaveAndLoadManager.SetFloat ("Timer " + _SceneManager.CurrentScene.name, value);
-				SaveAndLoadManager.Save ();
 			}
 		}
 		public const int LAGGY_FRAMES_ON_LOAD_SCENE = 2;

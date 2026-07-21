@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 753349369391047473}
   - component: {fileID: 6910246805907140796}
   - component: {fileID: 972126422705671423}
+  - component: {fileID: 7760539244850105818}
   m_Layer: 30
   m_Name: Arrow Shooter
   m_TagString: Untagged
@@ -38,7 +39,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2972374190240349712
 SpriteRenderer:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,6 +96,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!114 &2424709952336861973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,3 +234,246 @@ MonoBehaviour:
   - {fileID: 972126422705671423}
   dontUnloadAfterLoad: 0
   keepParented: 0
+--- !u!114 &7760539244850105818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692016155244570819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
+  m_ShadowGroup: 0
+  m_Priority: 0
+  m_ComponentVersion: 6
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: {_typeName: int, _data: f305a7c30000000055b174027be6b429}
+  m_ShapePath:
+  - {x: -0.7083333, y: -0.6383333, z: 0}
+  - {x: -0.7083333, y: 0.6383333, z: 0}
+  - {x: 0.7083333, y: 0.6383333, z: 0}
+  - {x: 0.7083333, y: -0.6383333, z: 0}
+  m_ShapePathHash: 0
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 6910246805907140796}
+  m_ShadowShape2DProvider:
+    rid: 751686018006516292
+  m_ShadowCastingSource: 2
+  m_ShadowMesh:
+    rid: 751686018006516288
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 2
+  m_PreviousShadowShape2DSource: {fileID: 6910246805907140796}
+  m_SelectionSources:
+    rid: 751686018006516289
+  references:
+    version: 2
+    RefIds:
+    - rid: 751686018006516288
+      type: {class: ShadowMesh2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Vertices:
+        - position: {x: 0.20254517, y: -0.2866516, z: 0}
+          tangent: {x: -1, y: 0, z: 0.3276062, w: -0.046203613}
+        - position: {x: 0.3276062, y: -0.046203613, z: 0}
+          tangent: {x: -1, y: 0, z: 0.66648865, w: -0.044067383}
+        - position: {x: 0.66648865, y: -0.044067383, z: 0}
+          tangent: {x: -1, y: 0, z: 0.66648865, w: 0.06201172}
+        - position: {x: 0.66648865, y: 0.06201172, z: 0}
+          tangent: {x: -1, y: 0, z: 0.48757935, w: 0.35749817}
+        - position: {x: 0.48757935, y: 0.35749817, z: 0}
+          tangent: {x: -1, y: 0, z: 0.16239929, w: 0.638504}
+        - position: {x: 0.16239929, y: 0.638504, z: 0}
+          tangent: {x: -1, y: 0, z: -0.16435242, w: 0.6362915}
+        - position: {x: -0.16435242, y: 0.6362915, z: 0}
+          tangent: {x: -1, y: 0, z: -0.5018463, w: 0.34101868}
+        - position: {x: -0.5018463, y: 0.34101868, z: 0}
+          tangent: {x: -1, y: 0, z: -0.672699, w: 0.06312561}
+        - position: {x: -0.672699, y: 0.06312561, z: 0}
+          tangent: {x: -1, y: 0, z: -0.6710205, w: -0.03717041}
+        - position: {x: -0.6710205, y: -0.03717041, z: 0}
+          tangent: {x: -1, y: 0, z: -0.3279419, w: -0.044143677}
+        - position: {x: -0.3279419, y: -0.044143677, z: 0}
+          tangent: {x: -1, y: 0, z: -0.20689392, w: -0.29177856}
+        - position: {x: -0.20689392, y: -0.29177856, z: 0}
+          tangent: {x: -1, y: 0, z: -0.168396, w: -0.63235474}
+        - position: {x: -0.168396, y: -0.63235474, z: 0}
+          tangent: {x: -1, y: 0, z: 0.16027832, w: -0.63298035}
+        - position: {x: 0.16027832, y: -0.63298035, z: 0}
+          tangent: {x: -1, y: 0, z: 0.20254517, w: -0.2866516}
+        - position: {x: 0.20254517, y: -0.2866516, z: 0}
+          tangent: {x: 0, y: 0, z: 0.3276062, w: -0.046203613}
+        - position: {x: 0.3276062, y: -0.046203613, z: 0}
+          tangent: {x: 0, y: 0, z: 0.20254517, w: -0.2866516}
+        - position: {x: 0.20254517, y: -0.2866516, z: 0}
+          tangent: {x: 1, y: 0, z: 0.3276062, w: -0.046203613}
+        - position: {x: 0.20254517, y: -0.2866516, z: 0}
+          tangent: {x: 3, y: 0, z: 0.3276062, w: -0.046203613}
+        - position: {x: 0.3276062, y: -0.046203613, z: 0}
+          tangent: {x: 0, y: 0, z: 0.66648865, w: -0.044067383}
+        - position: {x: 0.66648865, y: -0.044067383, z: 0}
+          tangent: {x: 0, y: 0, z: 0.3276062, w: -0.046203613}
+        - position: {x: 0.3276062, y: -0.046203613, z: 0}
+          tangent: {x: 1, y: 0, z: 0.66648865, w: -0.044067383}
+        - position: {x: 0.3276062, y: -0.046203613, z: 0}
+          tangent: {x: 3, y: 0, z: 0.66648865, w: -0.044067383}
+        - position: {x: 0.66648865, y: -0.044067383, z: 0}
+          tangent: {x: 0, y: 0, z: 0.66648865, w: 0.06201172}
+        - position: {x: 0.66648865, y: 0.06201172, z: 0}
+          tangent: {x: 0, y: 0, z: 0.66648865, w: -0.044067383}
+        - position: {x: 0.66648865, y: -0.044067383, z: 0}
+          tangent: {x: 1, y: 0, z: 0.66648865, w: 0.06201172}
+        - position: {x: 0.66648865, y: -0.044067383, z: 0}
+          tangent: {x: 3, y: 0, z: 0.66648865, w: 0.06201172}
+        - position: {x: 0.66648865, y: 0.06201172, z: 0}
+          tangent: {x: 0, y: 0, z: 0.48757935, w: 0.35749817}
+        - position: {x: 0.48757935, y: 0.35749817, z: 0}
+          tangent: {x: 0, y: 0, z: 0.66648865, w: 0.06201172}
+        - position: {x: 0.66648865, y: 0.06201172, z: 0}
+          tangent: {x: 1, y: 0, z: 0.48757935, w: 0.35749817}
+        - position: {x: 0.66648865, y: 0.06201172, z: 0}
+          tangent: {x: 3, y: 0, z: 0.48757935, w: 0.35749817}
+        - position: {x: 0.48757935, y: 0.35749817, z: 0}
+          tangent: {x: 0, y: 0, z: 0.16239929, w: 0.638504}
+        - position: {x: 0.16239929, y: 0.638504, z: 0}
+          tangent: {x: 0, y: 0, z: 0.48757935, w: 0.35749817}
+        - position: {x: 0.48757935, y: 0.35749817, z: 0}
+          tangent: {x: 1, y: 0, z: 0.16239929, w: 0.638504}
+        - position: {x: 0.48757935, y: 0.35749817, z: 0}
+          tangent: {x: 3, y: 0, z: 0.16239929, w: 0.638504}
+        - position: {x: 0.16239929, y: 0.638504, z: 0}
+          tangent: {x: 0, y: 0, z: -0.16435242, w: 0.6362915}
+        - position: {x: -0.16435242, y: 0.6362915, z: 0}
+          tangent: {x: 0, y: 0, z: 0.16239929, w: 0.638504}
+        - position: {x: 0.16239929, y: 0.638504, z: 0}
+          tangent: {x: 1, y: 0, z: -0.16435242, w: 0.6362915}
+        - position: {x: 0.16239929, y: 0.638504, z: 0}
+          tangent: {x: 3, y: 0, z: -0.16435242, w: 0.6362915}
+        - position: {x: -0.16435242, y: 0.6362915, z: 0}
+          tangent: {x: 0, y: 0, z: -0.5018463, w: 0.34101868}
+        - position: {x: -0.5018463, y: 0.34101868, z: 0}
+          tangent: {x: 0, y: 0, z: -0.16435242, w: 0.6362915}
+        - position: {x: -0.16435242, y: 0.6362915, z: 0}
+          tangent: {x: 1, y: 0, z: -0.5018463, w: 0.34101868}
+        - position: {x: -0.16435242, y: 0.6362915, z: 0}
+          tangent: {x: 3, y: 0, z: -0.5018463, w: 0.34101868}
+        - position: {x: -0.5018463, y: 0.34101868, z: 0}
+          tangent: {x: 0, y: 0, z: -0.672699, w: 0.06312561}
+        - position: {x: -0.672699, y: 0.06312561, z: 0}
+          tangent: {x: 0, y: 0, z: -0.5018463, w: 0.34101868}
+        - position: {x: -0.5018463, y: 0.34101868, z: 0}
+          tangent: {x: 1, y: 0, z: -0.672699, w: 0.06312561}
+        - position: {x: -0.5018463, y: 0.34101868, z: 0}
+          tangent: {x: 3, y: 0, z: -0.672699, w: 0.06312561}
+        - position: {x: -0.672699, y: 0.06312561, z: 0}
+          tangent: {x: 0, y: 0, z: -0.6710205, w: -0.03717041}
+        - position: {x: -0.6710205, y: -0.03717041, z: 0}
+          tangent: {x: 0, y: 0, z: -0.672699, w: 0.06312561}
+        - position: {x: -0.672699, y: 0.06312561, z: 0}
+          tangent: {x: 1, y: 0, z: -0.6710205, w: -0.03717041}
+        - position: {x: -0.672699, y: 0.06312561, z: 0}
+          tangent: {x: 3, y: 0, z: -0.6710205, w: -0.03717041}
+        - position: {x: -0.6710205, y: -0.03717041, z: 0}
+          tangent: {x: 0, y: 0, z: -0.3279419, w: -0.044143677}
+        - position: {x: -0.3279419, y: -0.044143677, z: 0}
+          tangent: {x: 0, y: 0, z: -0.6710205, w: -0.03717041}
+        - position: {x: -0.6710205, y: -0.03717041, z: 0}
+          tangent: {x: 1, y: 0, z: -0.3279419, w: -0.044143677}
+        - position: {x: -0.6710205, y: -0.03717041, z: 0}
+          tangent: {x: 3, y: 0, z: -0.3279419, w: -0.044143677}
+        - position: {x: -0.3279419, y: -0.044143677, z: 0}
+          tangent: {x: 0, y: 0, z: -0.20689392, w: -0.29177856}
+        - position: {x: -0.20689392, y: -0.29177856, z: 0}
+          tangent: {x: 0, y: 0, z: -0.3279419, w: -0.044143677}
+        - position: {x: -0.3279419, y: -0.044143677, z: 0}
+          tangent: {x: 1, y: 0, z: -0.20689392, w: -0.29177856}
+        - position: {x: -0.3279419, y: -0.044143677, z: 0}
+          tangent: {x: 3, y: 0, z: -0.20689392, w: -0.29177856}
+        - position: {x: -0.20689392, y: -0.29177856, z: 0}
+          tangent: {x: 0, y: 0, z: -0.168396, w: -0.63235474}
+        - position: {x: -0.168396, y: -0.63235474, z: 0}
+          tangent: {x: 0, y: 0, z: -0.20689392, w: -0.29177856}
+        - position: {x: -0.20689392, y: -0.29177856, z: 0}
+          tangent: {x: 1, y: 0, z: -0.168396, w: -0.63235474}
+        - position: {x: -0.20689392, y: -0.29177856, z: 0}
+          tangent: {x: 3, y: 0, z: -0.168396, w: -0.63235474}
+        - position: {x: -0.168396, y: -0.63235474, z: 0}
+          tangent: {x: 0, y: 0, z: 0.16027832, w: -0.63298035}
+        - position: {x: 0.16027832, y: -0.63298035, z: 0}
+          tangent: {x: 0, y: 0, z: -0.168396, w: -0.63235474}
+        - position: {x: -0.168396, y: -0.63235474, z: 0}
+          tangent: {x: 1, y: 0, z: 0.16027832, w: -0.63298035}
+        - position: {x: -0.168396, y: -0.63235474, z: 0}
+          tangent: {x: 3, y: 0, z: 0.16027832, w: -0.63298035}
+        - position: {x: 0.16027832, y: -0.63298035, z: 0}
+          tangent: {x: 0, y: 0, z: 0.20254517, w: -0.2866516}
+        - position: {x: 0.20254517, y: -0.2866516, z: 0}
+          tangent: {x: 0, y: 0, z: 0.16027832, w: -0.63298035}
+        - position: {x: 0.16027832, y: -0.63298035, z: 0}
+          tangent: {x: 1, y: 0, z: 0.20254517, w: -0.2866516}
+        - position: {x: 0.16027832, y: -0.63298035, z: 0}
+          tangent: {x: 3, y: 0, z: 0.20254517, w: -0.2866516}
+        m_Indices: {_typeName: int, _data: 000000000e0000000f0000000f0000000100000000000000010000001200000013000000130000000200000001000000020000001600000017000000170000000300000002000000030000001a0000001b0000001b0000000400000003000000040000001e0000001f0000001f0000000500000004000000050000002200000023000000230000000600000005000000060000002600000027000000270000000700000006000000070000002a0000002b0000002b0000000800000007000000080000002e0000002f0000002f0000000900000008000000090000003200000033000000330000000a000000090000000a0000003600000037000000370000000b0000000a0000000b0000003a0000003b0000003b0000000c0000000b0000000c0000003e0000003f0000003f0000000d0000000c0000000d000000420000004300000043000000000000000d000000000000001000000011000000010000001400000015000000020000001800000019000000030000001c0000001d000000040000002000000021000000050000002400000025000000060000002800000029000000070000002c0000002d0000000800000030000000310000000900000034000000350000000a00000038000000390000000b0000003c0000003d0000000c00000040000000410000000d0000004400000045000000}
+        m_LocalBounds:
+          m_Center: {x: -0.0031051636, y: 0.0027618408, z: 0}
+          m_Extent: {x: 0.6695938, y: 0.6357422, z: 0}
+        m_EdgeProcessing: 1
+        m_TrimEdge: 0
+        m_FlipX: 0
+        m_FlipY: 0
+        m_InitialTrim: 0.06
+    - rid: 751686018006516289
+      type: {class: Shadow2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_SelectedHashCode: 302444090
+        m_SelectedSource:
+          rid: 751686018006516293
+        m_Provider2DCache:
+          rid: 751686018006516290
+    - rid: 751686018006516290
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.ShadowShape2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache:
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_SpriteRenderer
+            m_Component: {fileID: 2972374190240349712}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516291
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_Collider2D
+            m_Component: {fileID: 6910246805907140796}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516292
+    - rid: 751686018006516291
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516292
+      type: {class: ShadowShape2DProvider_Collider2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516293
+      type: {class: Shadow2DProviderSource, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_HashCode: 302444090
+        m_SourceType: 2
+        m_MenuPriority: 0
+        m_MenuName:
+          m_Text: PolygonCollider2D
+          m_Image: {fileID: 0}
+          m_Tooltip: Implemented by ShadowShape2DProvider_Collider2D
+          m_TextWithWhitespace: "PolygonCollider2D\u200B"
+        m_Provider:
+          rid: 751686018006516292
+        m_Component: {fileID: 6910246805907140796}

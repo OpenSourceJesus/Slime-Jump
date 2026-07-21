@@ -2,6 +2,7 @@ using Extensions;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
+using UnityEngine.Rendering.Universal;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -46,11 +47,20 @@ namespace SlimeJump
 // 			WorldMakerWindow.SetWorldActive (false);
 // #endif
 			SetPieces ();
+			DisableShadowCasters ();
 			for (int i = 0; i < areaZones.Length; i ++)
 			{
 				Zone2D areaZone = areaZones[i];
 				areaZones[i] = areaZone.Gen ();
 			}
+		}
+
+		// Light2Ds no longer cast shadows; casters would still run Update every frame.
+		void DisableShadowCasters ()
+		{
+			ShadowCaster2D[] casters = FindObjectsByType<ShadowCaster2D>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+			for (int i = 0; i < casters.Length; i ++)
+				casters[i].enabled = false;
 		}
 
 		public void Init ()

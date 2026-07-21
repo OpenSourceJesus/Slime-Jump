@@ -909,7 +909,7 @@ Texture2D:
     m_WrapW: 0
   m_LightmapFormat: 0
   m_ColorSpace: 0
-  m_PlatformBlob: 
+  m_PlatformBlob: {_typeName: UInt8, _data: }
   image data: 1
   _typelessdata: 00
   m_StreamData:

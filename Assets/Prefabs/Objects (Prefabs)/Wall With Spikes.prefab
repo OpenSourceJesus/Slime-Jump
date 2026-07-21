@@ -126,6 +126,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2363182362299188289, guid: 7f4169a6dacfa945db77fcdb42090c0b, type: 3}
+      propertyPath: m_PreviousTrimEdge
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363182362299188289, guid: 7f4169a6dacfa945db77fcdb42090c0b, type: 3}
+      propertyPath: managedReferences[751686018006516164].m_LocalBounds.m_Center.x
+      value: -0.018486023
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363182362299188289, guid: 7f4169a6dacfa945db77fcdb42090c0b, type: 3}
+      propertyPath: managedReferences[751686018006516164].m_LocalBounds.m_Center.y
+      value: -0.023735046
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363182362299188289, guid: 7f4169a6dacfa945db77fcdb42090c0b, type: 3}
+      propertyPath: managedReferences[751686018006516164].m_LocalBounds.m_Extent.x
+      value: 0.3438034
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363182362299188289, guid: 7f4169a6dacfa945db77fcdb42090c0b, type: 3}
+      propertyPath: managedReferences[751686018006516164].m_LocalBounds.m_Extent.y
+      value: 0.14373016
+      objectReference: {fileID: 0}
     - target: {fileID: 5297697395164101987, guid: 7f4169a6dacfa945db77fcdb42090c0b, type: 3}
       propertyPath: m_Name
       value: Wall With Spikes

@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: -8384088171100114240}
   - component: {fileID: 1099654746519603050}
   - component: {fileID: 4959330399860850561}
+  - component: {fileID: 2109382426868456078}
   m_Layer: 8
   m_Name: Gem
   m_TagString: Untagged
@@ -1329,7 +1330,7 @@ MonoBehaviour:
       - {x: -0.16999999, y: -0.113999985}
       - {x: -0.05999998, y: -0.29799998}
       - {x: -0.03199998, y: -0.392}
-      mUsedIndices: 000000000f00000048000000a1000000f1000000ca0100000c0200007502000092020000
+      mUsedIndices: {_typeName: int, _data: 000000000f00000048000000a1000000f1000000ca0100000c0200007502000092020000}
       mResultVertices:
       - {x: 0.052000027, y: -0.442, z: 1}
       - {x: 0.052000027, y: -0.442, z: -1}
@@ -1349,3121 +1350,3121 @@ MonoBehaviour:
       - {x: -0.05999998, y: -0.29799998, z: -1}
       - {x: -0.03199998, y: -0.392, z: 1}
       - {x: -0.03199998, y: -0.392, z: -1}
-      mResultTriangleIndices: 00000000010000000200000002000000010000000300000002000000030000000400000004000000030000000500000004000000050000000600000006000000050000000700000006000000070000000800000008000000070000000900000008000000090000000a0000000a000000090000000b0000000a0000000b0000000c0000000c0000000b0000000d0000000c0000000d0000000e0000000e0000000d0000000f0000000e0000000f00000010000000100000000f00000011000000100000001100000000000000000000001100000001000000
+      mResultTriangleIndices: {_typeName: int, _data: 00000000010000000200000002000000010000000300000002000000030000000400000004000000030000000500000004000000050000000600000006000000050000000700000006000000070000000800000008000000070000000900000008000000090000000a0000000a000000090000000b0000000a0000000b0000000c0000000c0000000b0000000d0000000c0000000d0000000e0000000e0000000d0000000f0000000e0000000f00000010000000100000000f00000011000000100000001100000000000000000000001100000001000000}
     - mDetectedRegion:
         mPointCount: 1538
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1239
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 43
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 37
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 36
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 33
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 29
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 28
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 26
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 26
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 24
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 23
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 22
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 20
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 19
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 19
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 18
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 18
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 17
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 17
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 16
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 16
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 15
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 15
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 14
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 14
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 13
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 13
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 12
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 12
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 12
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 12
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 12
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 11
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 11
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 11
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 11
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 10
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 9
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 9
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 9
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 9
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 9
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 9
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 8
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 7
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 6
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 5
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 4
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 3
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 1
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 207599
       mRegionIsIsland: 0
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 2
       mRegionIsIsland: 0
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 0
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
     - mDetectedRegion:
         mPointCount: 1
       mRegionIsIsland: 0
       mOutlineVertexOrderIsCCW: 1
       mIntermediateOutlineVertices: []
       mReducedOutlineVertices: []
-      mUsedIndices: 
+      mUsedIndices: {_typeName: int, _data: }
       mResultVertices: []
-      mResultTriangleIndices: 
+      mResultTriangleIndices: {_typeName: int, _data: }
   mAnimatedColliderParameters:
     mIsColliderAnimationUsed: 0
     mSpriteFrames: []
@@ -4472,7 +4473,7 @@ MonoBehaviour:
     mEdgeCollidersToSwitch: []
     mMeshCollidersToSwitch: []
     mColliderIDStrings: []
-    mRemovedFrameReferenceIndex: ffffffff
+    mRemovedFrameReferenceIndex: {_typeName: int, _data: ffffffff}
   mRegionIndependentParameters:
     mLiveUpdate: 1
     mAlphaOpaqueThreshold: 0.1
@@ -6065,12 +6066,205 @@ MonoBehaviour:
   mEdgeCollidersToSwitch: []
   mMeshCollidersToSwitch: []
   mColliderIDStrings: []
-  mRemovedFrameReferenceIndex: ffffffff
+  mRemovedFrameReferenceIndex: {_typeName: int, _data: ffffffff}
   mSyncToParentSpriteRenderer: 0
   mActiveColliderIndex: 0
   mActivePolygonCollider: {fileID: 0}
   mActiveEdgeCollider: {fileID: 0}
   mActiveMeshCollider: {fileID: 0}
+--- !u!114 &2109382426868456078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297697395164101987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
+  m_ShadowGroup: 0
+  m_Priority: 0
+  m_ComponentVersion: 6
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: {_typeName: int, _data: f305a7c30000000055b174027be6b429}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  m_ShapePathHash: 0
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 4618370611421038413}
+  m_ShadowShape2DProvider:
+    rid: 751686018006516278
+  m_ShadowCastingSource: 2
+  m_ShadowMesh:
+    rid: 751686018006516274
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 2
+  m_PreviousShadowShape2DSource: {fileID: 4618370611421038413}
+  m_SelectionSources:
+    rid: 751686018006516275
+  references:
+    version: 2
+    RefIds:
+    - rid: 751686018006516274
+      type: {class: ShadowMesh2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Vertices:
+        - position: {x: 0.083999634, y: -0.42799377, z: 0}
+          tangent: {x: -1, y: 0, z: 0.12800598, w: -0.057998657}
+        - position: {x: 0.12800598, y: -0.057998657, z: 0}
+          tangent: {x: -1, y: 0, z: 0.05999756, w: 0.067993164}
+        - position: {x: 0.05999756, y: 0.067993164, z: 0}
+          tangent: {x: -1, y: 0, z: -0.0039978027, w: 0.33000183}
+        - position: {x: -0.0039978027, y: 0.33000183, z: 0}
+          tangent: {x: -1, y: 0, z: -0.22000122, w: 0.07400513}
+        - position: {x: -0.22000122, y: 0.07400513, z: 0}
+          tangent: {x: -1, y: 0, z: -0.16999817, w: -0.11399841}
+        - position: {x: -0.16999817, y: -0.11399841, z: 0}
+          tangent: {x: -1, y: 0, z: -0.05999756, w: -0.29800415}
+        - position: {x: -0.05999756, y: -0.29800415, z: 0}
+          tangent: {x: -1, y: 0, z: -0.03199768, w: -0.3919983}
+        - position: {x: -0.03199768, y: -0.3919983, z: 0}
+          tangent: {x: -1, y: 0, z: 0.052001953, w: -0.44200134}
+        - position: {x: 0.052001953, y: -0.44200134, z: 0}
+          tangent: {x: -1, y: 0, z: 0.083999634, w: -0.42799377}
+        - position: {x: 0.083999634, y: -0.42799377, z: 0}
+          tangent: {x: 0, y: 0, z: 0.12800598, w: -0.057998657}
+        - position: {x: 0.12800598, y: -0.057998657, z: 0}
+          tangent: {x: 0, y: 0, z: 0.083999634, w: -0.42799377}
+        - position: {x: 0.083999634, y: -0.42799377, z: 0}
+          tangent: {x: 1, y: 0, z: 0.12800598, w: -0.057998657}
+        - position: {x: 0.083999634, y: -0.42799377, z: 0}
+          tangent: {x: 3, y: 0, z: 0.12800598, w: -0.057998657}
+        - position: {x: 0.12800598, y: -0.057998657, z: 0}
+          tangent: {x: 0, y: 0, z: 0.05999756, w: 0.067993164}
+        - position: {x: 0.05999756, y: 0.067993164, z: 0}
+          tangent: {x: 0, y: 0, z: 0.12800598, w: -0.057998657}
+        - position: {x: 0.12800598, y: -0.057998657, z: 0}
+          tangent: {x: 1, y: 0, z: 0.05999756, w: 0.067993164}
+        - position: {x: 0.12800598, y: -0.057998657, z: 0}
+          tangent: {x: 3, y: 0, z: 0.05999756, w: 0.067993164}
+        - position: {x: 0.05999756, y: 0.067993164, z: 0}
+          tangent: {x: 0, y: 0, z: -0.0039978027, w: 0.33000183}
+        - position: {x: -0.0039978027, y: 0.33000183, z: 0}
+          tangent: {x: 0, y: 0, z: 0.05999756, w: 0.067993164}
+        - position: {x: 0.05999756, y: 0.067993164, z: 0}
+          tangent: {x: 1, y: 0, z: -0.0039978027, w: 0.33000183}
+        - position: {x: 0.05999756, y: 0.067993164, z: 0}
+          tangent: {x: 3, y: 0, z: -0.0039978027, w: 0.33000183}
+        - position: {x: -0.0039978027, y: 0.33000183, z: 0}
+          tangent: {x: 0, y: 0, z: -0.22000122, w: 0.07400513}
+        - position: {x: -0.22000122, y: 0.07400513, z: 0}
+          tangent: {x: 0, y: 0, z: -0.0039978027, w: 0.33000183}
+        - position: {x: -0.0039978027, y: 0.33000183, z: 0}
+          tangent: {x: 1, y: 0, z: -0.22000122, w: 0.07400513}
+        - position: {x: -0.0039978027, y: 0.33000183, z: 0}
+          tangent: {x: 3, y: 0, z: -0.22000122, w: 0.07400513}
+        - position: {x: -0.22000122, y: 0.07400513, z: 0}
+          tangent: {x: 0, y: 0, z: -0.16999817, w: -0.11399841}
+        - position: {x: -0.16999817, y: -0.11399841, z: 0}
+          tangent: {x: 0, y: 0, z: -0.22000122, w: 0.07400513}
+        - position: {x: -0.22000122, y: 0.07400513, z: 0}
+          tangent: {x: 1, y: 0, z: -0.16999817, w: -0.11399841}
+        - position: {x: -0.22000122, y: 0.07400513, z: 0}
+          tangent: {x: 3, y: 0, z: -0.16999817, w: -0.11399841}
+        - position: {x: -0.16999817, y: -0.11399841, z: 0}
+          tangent: {x: 0, y: 0, z: -0.05999756, w: -0.29800415}
+        - position: {x: -0.05999756, y: -0.29800415, z: 0}
+          tangent: {x: 0, y: 0, z: -0.16999817, w: -0.11399841}
+        - position: {x: -0.16999817, y: -0.11399841, z: 0}
+          tangent: {x: 1, y: 0, z: -0.05999756, w: -0.29800415}
+        - position: {x: -0.16999817, y: -0.11399841, z: 0}
+          tangent: {x: 3, y: 0, z: -0.05999756, w: -0.29800415}
+        - position: {x: -0.05999756, y: -0.29800415, z: 0}
+          tangent: {x: 0, y: 0, z: -0.03199768, w: -0.3919983}
+        - position: {x: -0.03199768, y: -0.3919983, z: 0}
+          tangent: {x: 0, y: 0, z: -0.05999756, w: -0.29800415}
+        - position: {x: -0.05999756, y: -0.29800415, z: 0}
+          tangent: {x: 1, y: 0, z: -0.03199768, w: -0.3919983}
+        - position: {x: -0.05999756, y: -0.29800415, z: 0}
+          tangent: {x: 3, y: 0, z: -0.03199768, w: -0.3919983}
+        - position: {x: -0.03199768, y: -0.3919983, z: 0}
+          tangent: {x: 0, y: 0, z: 0.052001953, w: -0.44200134}
+        - position: {x: 0.052001953, y: -0.44200134, z: 0}
+          tangent: {x: 0, y: 0, z: -0.03199768, w: -0.3919983}
+        - position: {x: -0.03199768, y: -0.3919983, z: 0}
+          tangent: {x: 1, y: 0, z: 0.052001953, w: -0.44200134}
+        - position: {x: -0.03199768, y: -0.3919983, z: 0}
+          tangent: {x: 3, y: 0, z: 0.052001953, w: -0.44200134}
+        - position: {x: 0.052001953, y: -0.44200134, z: 0}
+          tangent: {x: 0, y: 0, z: 0.083999634, w: -0.42799377}
+        - position: {x: 0.083999634, y: -0.42799377, z: 0}
+          tangent: {x: 0, y: 0, z: 0.052001953, w: -0.44200134}
+        - position: {x: 0.052001953, y: -0.44200134, z: 0}
+          tangent: {x: 1, y: 0, z: 0.083999634, w: -0.42799377}
+        - position: {x: 0.052001953, y: -0.44200134, z: 0}
+          tangent: {x: 3, y: 0, z: 0.083999634, w: -0.42799377}
+        m_Indices: {_typeName: int, _data: 00000000090000000a0000000a0000000100000000000000010000000d0000000e0000000e000000020000000100000002000000110000001200000012000000030000000200000003000000150000001600000016000000040000000300000004000000190000001a0000001a0000000500000004000000050000001d0000001e0000001e000000060000000500000006000000210000002200000022000000070000000600000007000000250000002600000026000000080000000700000008000000290000002a0000002a0000000000000008000000000000000b0000000c000000010000000f00000010000000020000001300000014000000030000001700000018000000040000001b0000001c000000050000001f00000020000000060000002300000024000000070000002700000028000000080000002b0000002c000000}
+        m_LocalBounds:
+          m_Center: {x: -0.04599762, y: -0.055999756, z: 0}
+          m_Extent: {x: 0.1740036, y: 0.3860016, z: 0}
+        m_EdgeProcessing: 1
+        m_TrimEdge: 0
+        m_FlipX: 0
+        m_FlipY: 0
+        m_InitialTrim: 0.07
+    - rid: 751686018006516275
+      type: {class: Shadow2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_SelectedHashCode: 302444090
+        m_SelectedSource:
+          rid: 751686018006516279
+        m_Provider2DCache:
+          rid: 751686018006516276
+    - rid: 751686018006516276
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.ShadowShape2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache:
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_SpriteRenderer
+            m_Component: {fileID: 9017542995670741268}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516277
+        - m_Key:
+            m_TypeName: ShadowShape2DProvider_Collider2D
+            m_Component: {fileID: 4618370611421038413}
+            m_UsesComponent: 1
+          m_Value:
+            m_Provider:
+              rid: 751686018006516278
+    - rid: 751686018006516277
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516278
+      type: {class: ShadowShape2DProvider_Collider2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
+    - rid: 751686018006516279
+      type: {class: Shadow2DProviderSource, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_HashCode: 302444090
+        m_SourceType: 2
+        m_MenuPriority: 0
+        m_MenuName:
+          m_Text: PolygonCollider2D
+          m_Image: {fileID: 0}
+          m_Tooltip: Implemented by ShadowShape2DProvider_Collider2D
+          m_TextWithWhitespace: "PolygonCollider2D\u200B"
+        m_Provider:
+          rid: 751686018006516278
+        m_Component: {fileID: 4618370611421038413}
 --- !u!1001 &4948691690404239261
 PrefabInstance:
   m_ObjectHideFlags: 0

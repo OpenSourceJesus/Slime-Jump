@@ -78,11 +78,17 @@ namespace SlimeJump
 
 		public static void SetWorldActive (bool active)
 		{
+			Transform piecesParent = World.Instance.piecesParent;
 			for (int i = 0; i < World.Instance.worldObjects.Length; i ++)
 			{
 				ObjectInWorld worldObject = World.instance.worldObjects[i];
-				if (worldObject != null && worldObject.enabled)
-					worldObject.trs.gameObject.SetActive(active);
+				if (worldObject == null || !worldObject.enabled)
+					continue;
+				// Streamed piece copies stay under piecesParent — only toggle authoring originals
+				// (e.g. Lights) so LoadPiece can still activate them at runtime.
+				if (piecesParent != null && worldObject.trs.IsChildOf(piecesParent))
+					continue;
+				worldObject.trs.gameObject.SetActive(active);
 			}
 			for (int i = 0; i < World.instance.tilemaps.Length; i ++)
 			{
