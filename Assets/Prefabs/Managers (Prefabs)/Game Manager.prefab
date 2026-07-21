@@ -1,5 +1,70 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &22093566235010173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 325461645581204882}
+  - component: {fileID: 7594359736735819628}
+  m_Layer: 5
+  m_Name: Vertical Layout Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &325461645581204882
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22093566235010173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2835806695015949703}
+  - {fileID: 5016088752603558131}
+  - {fileID: 8855193179640063087}
+  m_Father: {fileID: 9123632006134731886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -50, y: -50}
+  m_SizeDelta: {x: 3000, y: 3100}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &7594359736735819628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22093566235010173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 50
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &79715039194951182
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +277,144 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &429596095760633070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8855193179640063087}
+  - component: {fileID: 428015474064106466}
+  - component: {fileID: 3804063206103805630}
+  m_Layer: 5
+  m_Name: Speedrun Timer Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &8855193179640063087
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429596095760633070}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325461645581204882}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 3000, y: -2099.9998}
+  m_SizeDelta: {x: 3000, y: 1000}
+  m_Pivot: {x: 1, y: 1}
+--- !u!222 &428015474064106466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429596095760633070}
+  m_CullTransparentMesh: 1
+--- !u!114 &3804063206103805630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429596095760633070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 9999.99
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 46bb40f9901473115a49f39e58cd5952, type: 2}
+  m_sharedMaterial: {fileID: -6008984681717171949, guid: 46bb40f9901473115a49f39e58cd5952, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 778.15
+  m_fontSizeBase: 32767
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 32767
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -530,8 +732,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4240794394790915691}
-  - {fileID: 2835806695015949703}
-  - {fileID: 5016088752603558131}
+  - {fileID: 325461645581204882}
   - {fileID: 3180920937752450286}
   - {fileID: 1038354831143820854}
   - {fileID: 656622604435052941}
@@ -664,17 +865,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415908864330931803}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2204472730677307256}
-  m_Father: {fileID: 9123632006134731886}
+  m_Father: {fileID: 325461645581204882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 3000, y: 0}
   m_SizeDelta: {x: 3000, y: 1000}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &3824185181006547862
@@ -755,7 +956,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1152,8 +1353,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Grasslands Speedrunner
-  description: Touch all save points in a row in Grasslands within | seconds without
-    fast-traveling
+  description: Touch all save points in a row in Grasslands within | seconds without fast-traveling
   icon: {fileID: -5689332962306469196, guid: b5e45a4d53b407deebb3f8c0bad1b800, type: 3}
   sceneName: World (Rage)
   duration: 45
@@ -1212,8 +1412,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Metaspace Survivor
-  description: Touch all save points in a row in Metaspace without dying or fast-traveling.
-    You can return to the main menu twice.
+  description: Touch all save points in a row in Metaspace without dying or fast-traveling. You can return to the main menu twice.
   icon: {fileID: 7665229712117674908, guid: 5bed46ec94cc45a69857e1c969db2eaa, type: 3}
   sceneName: World (Rage)
   savePointsNames:
@@ -1449,8 +1648,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Metaspace Survivor
-  description: Touch all save points in a row in Metaspace without dying or fast-traveling.
-    You can return to the main menu twice.
+  description: Touch all save points in a row in Metaspace without dying or fast-traveling. You can return to the main menu twice.
   icon: {fileID: 7665229712117674908, guid: 5bed46ec94cc45a69857e1c969db2eaa, type: 3}
   sceneName: World
   savePointsNames:
@@ -1680,7 +1878,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1778,17 +1976,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3561044719728130201}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1475348397762709485}
-  m_Father: {fileID: 9123632006134731886}
+  m_Father: {fileID: 325461645581204882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -1100}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 3000, y: -1050}
   m_SizeDelta: {x: 3000, y: 1000}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &1134575097686625108
@@ -1869,7 +2067,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1938,8 +2136,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Crystal Caves Survivor
-  description: Touch all save points in a row in Crystal Caves without dying or fast-traveling.
-    You can return to the main menu once.
+  description: Touch all save points in a row in Crystal Caves without dying or fast-traveling. You can return to the main menu once.
   icon: {fileID: -7695574544647312538, guid: 1fc18eb950aae74a79be596d2c203f5a, type: 3}
   sceneName: World
   savePointsNames:
@@ -2047,8 +2244,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Sky Palace Survivor
-  description: Touch all save points in a row in Sky Palace without dying or fast-traveling.
-    You can return to the main menu once.
+  description: Touch all save points in a row in Sky Palace without dying or fast-traveling. You can return to the main menu once.
   icon: {fileID: 785981836286581888, guid: 28d4b39210c9ff7c498cf84e7fd353d3, type: 3}
   sceneName: World (Rage)
   savePointsNames:
@@ -2215,8 +2411,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Sky Palace Survivor
-  description: Touch all save points in a row in Sky Palace without dying or fast-traveling.
-    You can return to the main menu once.
+  description: Touch all save points in a row in Sky Palace without dying or fast-traveling. You can return to the main menu once.
   icon: {fileID: 785981836286581888, guid: 28d4b39210c9ff7c498cf84e7fd353d3, type: 3}
   sceneName: World
   savePointsNames:
@@ -2476,8 +2671,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Volcanic Underworld Survivor
-  description: Touch all save points in a row in Volcanic Underworld without dying
-    or fast-traveling. You can return to the main menu once.
+  description: Touch all save points in a row in Volcanic Underworld without dying or fast-traveling. You can return to the main menu once.
   icon: {fileID: -2209375478872009430, guid: e80319ec9c2a5b5f38912ef6dcb4cabf, type: 3}
   sceneName: World (Rage)
   savePointsNames:
@@ -2682,9 +2876,8 @@ MonoBehaviour:
   - name: Windows x64
     enabled: 1
     target: 19
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump (Windows x64)\Slime
-      Jump.exe
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Windows x64)\Slime Jump.exe
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x64)
@@ -2694,9 +2887,8 @@ MonoBehaviour:
   - name: Windows x64
     enabled: 1
     target: 19
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump Demo (Windows x64)\Slime
-      Jump Demo.exe
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Windows x64)\Slime Jump Demo.exe
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x64)
@@ -2706,9 +2898,8 @@ MonoBehaviour:
   - name: Windows x32
     enabled: 1
     target: 5
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump (Windows x32)\Slime
-      Jump.exe
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Windows x32)\Slime Jump.exe
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x32)
@@ -2718,9 +2909,8 @@ MonoBehaviour:
   - name: Windows x32
     enabled: 1
     target: 5
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump Demo (Windows x32)\Slime
-      Jump Demo.exe
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Windows x32)\Slime Jump Demo.exe
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x32)
@@ -2730,8 +2920,8 @@ MonoBehaviour:
   - name: Mac
     enabled: 1
     target: 2
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump (Mac)\Slime Jump
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Mac)\Slime Jump
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 0
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Mac)
@@ -2741,9 +2931,8 @@ MonoBehaviour:
   - name: Mac
     enabled: 1
     target: 2
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump Demo (Mac)\Slime
-      Jump Demo
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Mac)\Slime Jump Demo
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 0
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Mac)
@@ -2753,9 +2942,8 @@ MonoBehaviour:
   - name: Linux
     enabled: 1
     target: 24
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump (Linux x64)\Slime
-      Jump.x86_64
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Linux x64)\Slime Jump.x86_64
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Linux x64)
@@ -2765,9 +2953,8 @@ MonoBehaviour:
   - name: Linux
     enabled: 1
     target: 24
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump Demo (Linux x64)\Slime
-      Jump Demo.x86_64
-    options: 0000080008000000
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Linux x64)\Slime Jump Demo.x86_64
+    options: {_typeName: int, _data: 0000080008000000}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Linux x64)
@@ -2777,9 +2964,8 @@ MonoBehaviour:
   - name: Android
     enabled: 0
     target: 13
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump (Android)\Slime
-      Jump.apk
-    options: 00000800
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Android)\Slime Jump.apk
+    options: {_typeName: int, _data: 00000800}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Android)
@@ -2789,9 +2975,8 @@ MonoBehaviour:
   - name: Android
     enabled: 0
     target: 13
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump Demo (Android)\Slime
-      Jump Demo.apk
-    options: 0000080008000000
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Android)\Slime Jump Demo.apk
+    options: {_typeName: int, _data: 0000080008000000}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Android)
@@ -2801,9 +2986,8 @@ MonoBehaviour:
   - name: Windows x64 Dev
     enabled: 0
     target: 19
-    locationPath: /home/gileadcosman\slime-jump\Builds\Slime Jump (Windows x64 Dev)\Slime
-      Jump.exe
-    options: 0000080001000000
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Windows x64 Dev)\Slime Jump.exe
+    options: {_typeName: int, _data: 0000080001000000}
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x64 Dev)
@@ -2863,8 +3047,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Grasslands Speedrunner
-  description: Touch all save points in a row in Grasslands within | seconds without
-    fast-traveling
+  description: Touch all save points in a row in Grasslands within | seconds without fast-traveling
   icon: {fileID: -5689332962306469196, guid: b5e45a4d53b407deebb3f8c0bad1b800, type: 3}
   sceneName: World
   duration: 45
@@ -3033,8 +3216,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Crystal Caves Survivor
-  description: Touch all save points in a row in Crystal Caves without dying or fast-traveling.
-    You can return to the main menu once.
+  description: Touch all save points in a row in Crystal Caves without dying or fast-traveling. You can return to the main menu once.
   icon: {fileID: -7695574544647312538, guid: 1fc18eb950aae74a79be596d2c203f5a, type: 3}
   sceneName: World (Rage)
   savePointsNames:
@@ -3261,7 +3443,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -3330,8 +3512,7 @@ MonoBehaviour:
   handleMultipleInstances: 0
   persistant: 0
   displayName: Volcanic Underworld Survivor
-  description: Touch all save points in a row in Volcanic Underworld without dying
-    or fast-traveling. You can return to the main menu once.
+  description: Touch all save points in a row in Volcanic Underworld without dying or fast-traveling. You can return to the main menu once.
   icon: {fileID: -2209375478872009430, guid: e80319ec9c2a5b5f38912ef6dcb4cabf, type: 3}
   sceneName: World
   savePointsNames:
@@ -4074,7 +4255,7 @@ MonoBehaviour:
   cosmeticNotificationPreviewParent: {fileID: 1069776563991347037}
   cosmeticNotificationText: {fileID: 4447233975886136423}
   cosmeticNotificationDur: 3.6
-  speedrunTimerText: {fileID: 6333438157654152370}
+  speedrunTimerText: {fileID: 3804063206103805630}
   saveNotificationTempActiveText:
     obj: {fileID: 6382377297956091848}
     duration: 0
@@ -4152,8 +4333,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Achievement unlocked!
 
-    Touch all save points in a row in Volcanic
-    Underworld within 45 seconds without fast-traveling'
+    Touch all save points in a row in Volcanic Underworld within 45 seconds without fast-traveling'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 46bb40f9901473115a49f39e58cd5952, type: 2}
   m_sharedMaterial: {fileID: -6008984681717171949, guid: 46bb40f9901473115a49f39e58cd5952, type: 2}
@@ -4203,7 +4383,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
