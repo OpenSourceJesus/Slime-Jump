@@ -207,7 +207,8 @@ namespace SlimeJump
 			{
 				Player.instance.SavedPosition = fastTravelToSavePoint.worldMapIcon.objectCollider.bounds.center;
 				OneLifeAchievement.savePointsNamesTouchedInOneLife.Clear();
-				SpeedAchievement.savePointsNamesTouchedWithoutFastTraveling.Clear();
+				if (SpeedAchievement.current != null)
+					SpeedAchievement.current.SavePointsTouchedCntWithoutFastTraveling = 0;
 				SaveAndLoadManager.Save ();
 				Close ();
 				isOpen = false;

@@ -8,9 +8,29 @@ namespace SlimeJump
 		public string sceneName;
 		public uint duration;
 		public string[] savePointsNames = new string[0];
-		public static List<string> savePointsNamesTouchedWithoutFastTraveling = new List<string>();
+		public float TimeLeft
+		{
+			get
+			{
+				return SaveAndLoadManager.GetFloat(sceneName + " " + name + " time left");
+			}
+			set
+			{
+				SaveAndLoadManager.SetFloat (sceneName + " " + name + " time left", value);
+			}
+		}
+		public int SavePointsTouchedCntWithoutFastTraveling
+		{
+			get
+			{
+				return SaveAndLoadManager.GetInt(sceneName + " " + name + " save points touched count without fast traveling");
+			}
+			set
+			{
+				SaveAndLoadManager.SetInt (sceneName + " " + name + " save points touched count without fast traveling", value);
+			}
+		}
 		public static SpeedAchievement[] instances = new SpeedAchievement[0];
-		public static float startTime;
 		public static SpeedAchievement current;
 		const string REPLACE_INDICATOR = "|";
 
@@ -22,14 +42,8 @@ namespace SlimeJump
 
 		public override bool HandleAchieve ()
 		{
-			if (Time.time - startTime > duration)
+			if (TimeLeft <= 0 || SavePointsTouchedCntWithoutFastTraveling < savePointsNames.Length)
 				return false;
-			for (int i = 0; i < savePointsNames.Length; i ++)
-			{
-				string savePointName = savePointsNames[i];
-				if (!savePointsNamesTouchedWithoutFastTraveling.Contains(savePointName + ' ' + sceneName))
-					return false;
-			}
 			Achieved = true;
 			return base.HandleAchieve();
 		}

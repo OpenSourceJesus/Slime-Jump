@@ -97,37 +97,39 @@ namespace SlimeJump
 				TouchSavePointAchievement touchSavePointAchievement = TouchSavePointAchievement.instances[i2];
 				touchSavePointAchievement.HandleAchieve ();
 			}
+			SpeedAchievement.current = null;
 			for (int i2 = 0; i2 < SpeedAchievement.instances.Length; i2 ++)
 			{
 				SpeedAchievement speedAchievement = SpeedAchievement.instances[i2];
-				if (name == speedAchievement.savePointsNames[0])
+				if (_SceneManager.CurrentScene.name == speedAchievement.sceneName)
 				{
-					SpeedAchievement.startTime = Time.time;
-					SpeedAchievement.current = speedAchievement;
-					SpeedAchievement.savePointsNamesTouchedWithoutFastTraveling.Clear();
-					GameManager.instance.speedrunTimerText.gameObject.SetActive(true);
-				}
-				else if (name == speedAchievement.savePointsNames[speedAchievement.savePointsNames.Length - 1])
-				{
-					speedAchievement.HandleAchieve ();
-					SpeedAchievement.current = null;
-					GameManager.instance.speedrunTimerText.gameObject.SetActive(false);
+					if (speedAchievement.savePointsNames.Contains(name))
+						SpeedAchievement.current = speedAchievement;
+					bool isFirstSavePoint = name == speedAchievement.savePointsNames[0];
+					bool isLastSavePoint = name == speedAchievement.savePointsNames[speedAchievement.savePointsNames.Length - 1];
+					if (isFirstSavePoint || isLastSavePoint)
+					{
+						if (isFirstSavePoint)
+						{
+							speedAchievement.SavePointsTouchedCntWithoutFastTraveling = 1;
+							speedAchievement.TimeLeft = speedAchievement.duration;
+						}
+						else if (speedAchievement.SavePointsTouchedCntWithoutFastTraveling < speedAchievement.savePointsNames.Length)
+						{
+							speedAchievement.SavePointsTouchedCntWithoutFastTraveling ++;
+							speedAchievement.HandleAchieve ();
+						}
+					}
 				}
 			}
+			GameManager.instance.speedrunTimerText.gameObject.SetActive(SpeedAchievement.current != null);
 			string myIdInAchievements = _SceneManager.CurrentScene.name + ' ' + name;
-			if (!SpeedAchievement.savePointsNamesTouchedWithoutFastTraveling.Contains(myIdInAchievements))
-				SpeedAchievement.savePointsNamesTouchedWithoutFastTraveling.Add(myIdInAchievements);
 			if (!OneLifeAchievement.savePointsNamesTouchedInOneLife.Contains(myIdInAchievements))
 				OneLifeAchievement.savePointsNamesTouchedInOneLife.Add(myIdInAchievements);
 			for (int i2 = 0; i2 < OneLifeAchievement.instances.Length; i2 ++)
 			{
 				OneLifeAchievement oneLifeAchievement = OneLifeAchievement.instances[i2];
 				oneLifeAchievement.HandleAchieve ();
-			}
-			for (int i2 = 0; i2 < SpeedAchievement.instances.Length; i2 ++)
-			{
-				SpeedAchievement speedAchievement = SpeedAchievement.instances[i2];
-				speedAchievement.HandleAchieve ();
 			}
 		}
 

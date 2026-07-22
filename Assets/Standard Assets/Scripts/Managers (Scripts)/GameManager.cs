@@ -169,12 +169,12 @@ namespace SlimeJump
 				pausedTime += Time.unscaledDeltaTime;
 			else if (SpeedAchievement.current != null)
 			{
-				float timeSinceStart = Time.time - SpeedAchievement.startTime;
-				if (timeSinceStart > SpeedAchievement.current.duration / timeSpeed)
+				SpeedAchievement.current.TimeLeft -= Time.deltaTime;
+				if (SpeedAchievement.current.TimeLeft <= 0)
 					speedrunTimerText.color = Color.red;
 				else
 					speedrunTimerText.color = Color.white;
-				speedrunTimerText.text = timeSinceStart.ToString("F1");
+				speedrunTimerText.text = SpeedAchievement.current.TimeLeft.ToString("F1");
 			}
 			Vector2 mousePos = Mouse.current.position.ReadValue();
 			if (mousePos != prevMousePos)
