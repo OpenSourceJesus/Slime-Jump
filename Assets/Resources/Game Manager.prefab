@@ -277,7 +277,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1878,7 +1878,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -2067,7 +2067,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -2877,7 +2877,7 @@ MonoBehaviour:
     enabled: 1
     target: 19
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Windows x64)\Slime Jump.exe
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x64)
@@ -2885,10 +2885,10 @@ MonoBehaviour:
     clearDataOnFirstStartup: 0
     isDemo: 0
   - name: Windows x64
-    enabled: 1
+    enabled: 0
     target: 19
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Windows x64)\Slime Jump Demo.exe
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x64)
@@ -2899,7 +2899,7 @@ MonoBehaviour:
     enabled: 1
     target: 5
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Windows x32)\Slime Jump.exe
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x32)
@@ -2907,10 +2907,10 @@ MonoBehaviour:
     clearDataOnFirstStartup: 0
     isDemo: 0
   - name: Windows x32
-    enabled: 1
+    enabled: 0
     target: 5
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Windows x32)\Slime Jump Demo.exe
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x32)
@@ -2921,7 +2921,7 @@ MonoBehaviour:
     enabled: 1
     target: 2
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Mac)\Slime Jump
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 0
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Mac)
@@ -2929,10 +2929,10 @@ MonoBehaviour:
     clearDataOnFirstStartup: 0
     isDemo: 0
   - name: Mac
-    enabled: 1
+    enabled: 0
     target: 2
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Mac)\Slime Jump Demo
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 0
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Mac)
@@ -2943,7 +2943,7 @@ MonoBehaviour:
     enabled: 1
     target: 24
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Linux x64)\Slime Jump.x86_64
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Linux x64)
@@ -2951,10 +2951,10 @@ MonoBehaviour:
     clearDataOnFirstStartup: 0
     isDemo: 0
   - name: Linux
-    enabled: 1
+    enabled: 0
     target: 24
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Linux x64)\Slime Jump Demo.x86_64
-    options: {_typeName: int, _data: 0000080008000000}
+    options: 0000080008000000i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Linux x64)
@@ -2965,7 +2965,7 @@ MonoBehaviour:
     enabled: 0
     target: 13
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Android)\Slime Jump.apk
-    options: {_typeName: int, _data: 00000800}
+    options: 00000800i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Android)
@@ -2976,7 +2976,7 @@ MonoBehaviour:
     enabled: 0
     target: 13
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump Demo (Android)\Slime Jump Demo.apk
-    options: {_typeName: int, _data: 0000080008000000}
+    options: 0000080008000000i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Android)
@@ -2987,15 +2987,25 @@ MonoBehaviour:
     enabled: 0
     target: 19
     locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Windows x64 Dev)\Slime Jump.exe
-    options: {_typeName: int, _data: 0000080001000000}
+    options: 0000080001000000i
     removeExtraDirs: 1
     makeZip: 0
     directoryToZip: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x64 Dev)
     zipLocationPath: C:\Users\gilea\slime-jump\Builds\Slime Jump (Windows x64 Dev).zip
     clearDataOnFirstStartup: 0
     isDemo: 0
+  - name: Linux x64 Dev
+    enabled: 0
+    target: 24
+    locationPath: /home/gileadc\slime-jump\Builds\Slime Jump (Linux x64 Dev)\Slime Jump.exe
+    options: 000008000100000004000000i
+    removeExtraDirs: 1
+    makeZip: 0
+    directoryToZip: 
+    zipLocationPath: 
+    clearDataOnFirstStartup: 0
+    isDemo: 0
   versionNumberText: {fileID: 0}
-  gameManagerPrefab: {fileID: 0}
   developmentStage: 0
   versionIndex: 0
   versionNumberPrefix: 
@@ -3443,7 +3453,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -4383,7 +4393,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: {_typeName: unsigned int, _data: 6e72656b}
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1

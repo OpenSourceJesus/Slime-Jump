@@ -190,13 +190,13 @@ MonoBehaviour:
   m_FontFeatureTable:
     m_MultipleSubstitutionRecords: []
     m_LigatureSubstitutionRecords:
-    - m_ComponentGlyphIDs: {_typeName: unsigned int, _data: 7a0000001202000050060000}
+    - m_ComponentGlyphIDs: 7a0000001202000050060000u
       m_LigatureGlyphID: 1786
-    - m_ComponentGlyphIDs: {_typeName: unsigned int, _data: c1000000dd010000}
+    - m_ComponentGlyphIDs: c1000000dd010000u
       m_LigatureGlyphID: 736
-    - m_ComponentGlyphIDs: {_typeName: unsigned int, _data: d4010000e3010000}
+    - m_ComponentGlyphIDs: d4010000e3010000u
       m_LigatureGlyphID: 737
-    - m_ComponentGlyphIDs: {_typeName: unsigned int, _data: d4010000fc010000}
+    - m_ComponentGlyphIDs: d4010000fc010000u
       m_LigatureGlyphID: 738
     m_GlyphPairAdjustmentRecords:
     - m_FirstAdjustmentRecord:
@@ -408257,7 +408257,7 @@ Texture2D:
     m_WrapW: 0
   m_LightmapFormat: 0
   m_ColorSpace: 0
-  m_PlatformBlob: {_typeName: UInt8, _data: }
+  m_PlatformBlob: 
   image data: 1
   _typelessdata: 00
   m_StreamData:

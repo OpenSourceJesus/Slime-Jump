@@ -16,9 +16,11 @@ namespace SlimeJump
 		public float mouseOverSoundVolume;
 		public AudioClip clickSound;
 		public float clickSoundVolume;
+		bool pointerInside;
 
-		public virtual void OnEnable ()
+		protected override void OnEnable ()
 		{
+			base.OnEnable ();
 #if UNITY_EDITOR
 			if (!Application.isPlaying)
 				return;
@@ -38,13 +40,30 @@ namespace SlimeJump
 
 		public override void OnPointerEnter (PointerEventData eventData)
 		{
+			pointerInside = true;
 			base.OnPointerEnter (eventData);
 			OnMouseOver ();
 		}
 
-		void OnDisable ()
+		public override void OnPointerExit (PointerEventData eventData)
+		{
+			pointerInside = false;
+			base.OnPointerExit (eventData);
+		}
+
+		protected override void OnDisable ()
 		{
 			GameManager.updatables = GameManager.updatables.Remove(this);
+			pointerInside = false;
+			EndPress ();
+			base.OnDisable ();
+		}
+
+		protected override void DoStateTransition (SelectionState state, bool instant)
+		{
+			if (state == SelectionState.Selected && !pointerInside)
+				state = SelectionState.Normal;
+			base.DoStateTransition (state, instant);
 		}
 
 		public void StartPress ()

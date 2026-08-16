@@ -95731,36 +95731,8 @@ PolygonCollider2D:
       - {x: 0.07514451, y: -0.27456647}
   m_UseDelaunayMesh: 0
 --- !u!114 &3476859644794833316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2375944796075057708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
-  m_ShadowGroup: 0
-  m_Priority: 0
-  m_ComponentVersion: 6
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_AlphaCutoff: 0.1
-  m_ApplyToSortingLayers: {_typeName: int, _data: f305a7c30000000055b174027be6b429}
-  m_ShapePath:
-  - {x: -0.49710983, y: -0.30346823, z: 0}
-  - {x: -0.49710983, y: 0.3034682, z: 0}
-  - {x: 0.49710983, y: 0.3034682, z: 0}
-  - {x: 0.49710983, y: -0.30346823, z: 0}
-  m_ShapePathHash: 0
-  m_InstanceId: 0
-  m_ShadowShape2DComponent: {fileID: 2048124918547126763}
-  m_ShadowShape2DProvider:
-    rid: 751686016334823473
+m_ShadowShape2DProvider:
+    rid: 751686016334823577
   m_ShadowCastingSource: 2
   m_ShadowMesh:
     rid: 751686016334823474
@@ -97886,36 +97858,8 @@ PolygonCollider2D:
       - {x: 0.12222224, y: 0.36666667}
   m_UseDelaunayMesh: 0
 --- !u!114 &7704433681904345762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3420392968269496114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
-  m_ShadowGroup: 0
-  m_Priority: 0
-  m_ComponentVersion: 6
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_AlphaCutoff: 0.1
-  m_ApplyToSortingLayers: {_typeName: int, _data: f305a7c30000000055b174027be6b429}
-  m_ShapePath:
-  - {x: -0.5, y: -0.43333334, z: 0}
-  - {x: -0.5, y: 0.43333334, z: 0}
-  - {x: 0.5, y: 0.43333334, z: 0}
-  - {x: 0.5, y: -0.43333334, z: 0}
-  m_ShapePathHash: 0
-  m_InstanceId: 0
-  m_ShadowShape2DComponent: {fileID: 549183218818709881}
-  m_ShadowShape2DProvider:
-    rid: 751686016334823530
+m_ShadowShape2DProvider:
+    rid: 751686016334823634
   m_ShadowCastingSource: 2
   m_ShadowMesh:
     rid: 751686016334823531
@@ -104678,36 +104622,8 @@ PolygonCollider2D:
       - {x: -0.18951614, y: -0.22177419}
   m_UseDelaunayMesh: 0
 --- !u!114 &3527022235205774229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6645179418547757144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.ShadowCaster2D
-  m_ShadowGroup: 0
-  m_Priority: 0
-  m_ComponentVersion: 6
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_AlphaCutoff: 0.1
-  m_ApplyToSortingLayers: {_typeName: int, _data: f305a7c30000000055b174027be6b429}
-  m_ShapePath:
-  - {x: -0.49999997, y: -0.27419356, z: 0}
-  - {x: -0.49999997, y: 0.27419356, z: 0}
-  - {x: 0.5, y: 0.27419356, z: 0}
-  - {x: 0.5, y: -0.27419356, z: 0}
-  m_ShapePathHash: 0
-  m_InstanceId: 0
-  m_ShadowShape2DComponent: {fileID: 4879260299515095212}
-  m_ShadowShape2DProvider:
-    rid: 751686016334823482
+m_ShadowShape2DProvider:
+    rid: 751686016334823586
   m_ShadowCastingSource: 2
   m_ShadowMesh:
     rid: 751686016334823483

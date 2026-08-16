@@ -33,10 +33,12 @@ namespace SlimeJump
 #if UNITY_EDITOR
 		public void OnValidate ()
 		{
-			if (Application.isPlaying)
+			if (Application.isPlaying || trs == null || endPnt == null || spriteMaskTrs == null || triggerCollider == null)
 				return;
 			initPos = trs.position;
 			Collider2D[] colliders = GetComponentsInChildren<Collider2D>().Remove(triggerCollider);
+			if (colliders.Length == 0)
+				return;
 			Bounds[] boundsInstances = new Bounds[colliders.Length * 2];
 			for (int i = 0; i < colliders.Length; i ++)
 			{

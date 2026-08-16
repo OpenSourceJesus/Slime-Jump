@@ -19,7 +19,6 @@ namespace SlimeJump
 		public BuildAction[] buildActions;
 		public Text versionNumberText;
 		static BuildPlayerOptions buildOptions;
-		public GameManager gameManagerPrefab;
 #endif
 		public DevelopmentStage developmentStage;
 		public int versionIndex;
@@ -118,7 +117,7 @@ namespace SlimeJump
 			
 			public void Do ()
 			{
-				BuildManager.instance.gameManagerPrefab.isDemo = isDemo;
+				Resources.Load<GameManager>("Game Manager").isDemo = isDemo;
 				if (target == BuildTarget.StandaloneOSX || target == BuildTarget.StandaloneWindows || target == BuildTarget.StandaloneWindows64)
 					PlayerSettings.SetScriptingBackend(BuildTargetGroup.Standalone, ScriptingImplementation.Mono2x);
 				else
