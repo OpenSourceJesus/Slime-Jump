@@ -44,10 +44,7 @@ namespace SlimeJump
 		Rect screenWithoutBorder;
 		SavePoint fastTravelToSavePoint;
 
-#if UNITY_EDITOR
-		[MenuItem("Game/Update world map %m")]
-#endif
-		static void _Update ()
+		public static void _Update ()
 		{
 			if (!Application.isPlaying)
 			{
@@ -244,7 +241,7 @@ namespace SlimeJump
 			Vector3Int[] _exploredCellPositionsSinceLastTimeOpened = new Vector3Int[exploredCellPositionsSinceLastTimeOpened.Count];
 			exploredCellPositionsSinceLastTimeOpened.CopyTo(_exploredCellPositionsSinceLastTimeOpened);
 			unexploredTilemap.SetTiles(_exploredCellPositionsSinceLastTimeOpened, new TileBase[exploredCellPositionsSinceLastTimeOpened.Count]);
-			WorldMapCamera.instance.trs.position = Player.Instance.trs.position.SetZ(WorldMapCamera.instance.trs.position.z);
+			WorldMapCamera.Instance.trs.position = Player.Instance.trs.position.SetZ(WorldMapCamera.instance.trs.position.z);
 			WorldMapCamera.instance.gameObject.SetActive(true);
 			// if (InputManager.UsingGamepad)
 			// {

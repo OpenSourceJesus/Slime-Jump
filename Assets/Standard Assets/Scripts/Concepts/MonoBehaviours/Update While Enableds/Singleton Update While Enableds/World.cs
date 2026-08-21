@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using UnityEngine.Rendering.Universal;
 #if UNITY_EDITOR
 using UnityEditor;
+using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 #endif
 
 namespace SlimeJump
@@ -29,9 +31,6 @@ namespace SlimeJump
 		public float extraUnloadPiecesRange;
 #if UNITY_EDITOR
 		public Tilemap[] tilemaps = new Tilemap[0];
-		public TileBase[] groundTiles = new TileBase[0];
-		public TileBase[] hazardTiles = new TileBase[0];
-		public bool update;
 #endif
 		AudioSource otherMusicSource;
 		WorldPiece piecePlayerIsIn;
@@ -91,11 +90,8 @@ namespace SlimeJump
 		}
 
 #if UNITY_EDITOR
-		void OnValidate ()
+		public void Validate ()
 		{
-			if (!update)
-				return;
-			update = false;
 			worldObjects = FindObjectsOfType<ObjectInWorld>();
 			for (int i = 0; i < worldObjects.Length; i ++)
 			{
@@ -109,6 +105,17 @@ namespace SlimeJump
 			Vector2 worldBoundsMin = WorldMap.Instance.unexploredTilemap.GetCellCenterWorld(WorldMap.instance.cellBounds.min) - (WorldMap.instance.unexploredTilemap.cellSize / 2);
 			Vector2 worldBoundsMax = WorldMap.instance.unexploredTilemap.GetCellCenterWorld(WorldMap.instance.cellBounds.max) + (WorldMap.instance.unexploredTilemap.cellSize / 2);
 			worldBoundsRect = Rect.MinMaxRect(worldBoundsMin.x, worldBoundsMin.y, worldBoundsMax.x, worldBoundsMax.y);
+		}
+
+		[MenuItem("Game/Update world %m")]
+		static void _Update ()
+		{
+			Instance.Validate ();
+			WorldMap._Update ();
+			WorldMakerWindow.Rebuild ();
+			Scene normalWorldScene = EditorSceneManager.GetSceneByName("World");
+			Scene rageWorldScene = EditorSceneManager.GetSceneByName("World (Rage)");
+			EditorSceneManager.SaveScenes(new Scene[] { normalWorldScene, rageWorldScene });
 		}
 #endif
 

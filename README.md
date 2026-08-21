@@ -1,1 +1,2 @@
-Scripts are found under 'Assets/Standard Assets'
+- Scripts are found under 'Assets/Standard Assets'
+- If you make changes to Assets/Scenes/World.unity or 'Assets/Scenes/World (Rage).unity' click "Game->Update world" or press Ctrl + M before testing

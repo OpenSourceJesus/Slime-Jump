@@ -278,12 +278,6 @@
         "com.unity.modules.physics": "1.0.0"
       }
     },
-    "com.veriorpies.parrelsync": {
-      "version": "file:/home/gileadc/ParrelSync/ParrelSync",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
