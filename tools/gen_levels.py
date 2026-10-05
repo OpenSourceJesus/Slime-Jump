@@ -21,6 +21,8 @@ LEGEND
     @  player spawn        S  savepoint (sits on the tile's bottom edge)
     o  gem                 G  goal portal (2 tiles tall, put it at floor level)
     w  worm (ground, put it on a floor tile)     b  bat (flying)
+    ~  crumbly: solid, fades 1s after the player first touches it, back on respawn
+    > < v A   arrow shooter (solid): fires toward where the arrow points when the player is in its line of sight
     *  lasso anchor HINT for the test bot (an empty tile just under a ceiling); not part of the game
     Header lines:  @name <Name>   @background #rrggbb   @requires lasso   ';' starts a comment.
     `@requires lasso` says the level cannot be finished without the lasso: the verifier then
@@ -45,7 +47,8 @@ import gen_sprites as sprites_mod  # noqa: E402
 import gen_slime as gs  # noqa: E402
 
 DEFAULT_OUT = sprites_mod.DEFAULT_OUT
-SOLID = set("#=M")
+SHOOTERS = {">": (1, 0), "<": (-1, 0), "v": (0, -1), "A": (0, 1)}      # solid tiles that fire arrows
+SOLID = set("#=M~") | set(SHOOTERS)
 ENTITIES = set("@SoGwb*")
 
 # --------------------------------------------------------------------------------------
@@ -104,6 +107,33 @@ HAND_LEVELS["swing"] = """
 ####################^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^##############################
 ################################################################################
 ################################################################################
+"""
+
+HAND_LEVELS["gauntlet"] = """
+; Gauntlet: an arrow shooter (fires back along the corridor, jump the arrows) and a 26-wide spiked
+; pit with a crumbly bridge (keep moving: each tile fades 1s after you first touch it).
+@name Gauntlet
+@background #14101c
+############################################################################
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#..........................................................................#
+#.................................................o........................#
+#...................o......................................................#
+#..........................................................................#
+#..@....S.....................<...................................S.....G..#
+######################################~~~~~~~~~~~~~~~~~~~~~~~~~~############
+######################################..........................############
+######################################^^^^^^^^^^^^^^^^^^^^^^^^^^############
+############################################################################
 """
 
 
@@ -204,9 +234,13 @@ def to_level(lv, config=None):
         "name": lv["name"], "background": lv["background"],
         "bounds": [0, 0, W, H],
         "spawn": [sx + .5, sy + pc["colliderH"] / 2.0 + 0.2],
-        "walls": merge_rects(cells(lv, set("#="))),
+        "walls": merge_rects(cells(lv, set("#=") | set(SHOOTERS))),
         "climbables": merge_rects(cells(lv, {"M"})),
         "spikes": merge_rects(cells(lv, {"^"}), merge_vertical=False),
+        # one object per tile, so each tile fades on its own when touched
+        "crumbly": [{"x": x, "y": y, "w": 1, "h": 1} for x, y in sorted(cells(lv, {"~"}))],
+        "shooters": [{"x": x + .5, "y": y + .5, "dx": SHOOTERS[ch][0], "dy": SHOOTERS[ch][1]}
+                     for ch in SHOOTERS for x, y in sorted(cells(lv, {ch}))],
         "savepoints": [{"name": "Save %d" % (i + 1), "x": x + .5, "y": y} for i, (x, y) in enumerate(entity_list(lv, "S"))],
         "gems": [{"name": "Gem %d" % (i + 1), "x": x + .5, "y": y + .5} for i, (x, y) in enumerate(entity_list(lv, "o"))],
         "enemies": enemies,
@@ -220,8 +254,9 @@ def to_level(lv, config=None):
 # --------------------------------------------------------------------------------------
 # Tiled (.tmj) export: a tile layer using tileset.png + an object layer for the entities
 # --------------------------------------------------------------------------------------
-def to_tmj(lv, level, tile=8, tileset="../tileset.png", tileset_size=(24, 8)):
-    gid = {"#": 1, "=": 1, "M": 2, "^": 3}
+def to_tmj(lv, level, tile=8, tileset="../tileset.png", tileset_size=(32, 8)):
+    gid = {"#": 1, "=": 1, "M": 2, "^": 3, "~": 4}
+    gid.update({ch: 1 for ch in SHOOTERS})
     data = [gid.get(ch, 0) for row in lv["rows"] for ch in row]
     H = lv["H"]
     objs, oid = [], 1
@@ -242,6 +277,8 @@ def to_tmj(lv, level, tile=8, tileset="../tileset.png", tileset_size=(24, 8)):
     add("goal", "Goal", level["goal"]["x"], level["goal"]["y"])
     for a in level.get("hints", {}).get("anchors", []):
         add("anchor", "Anchor", a["x"], a["y"])
+    for sh in level.get("shooters", []):
+        add("shooter", "Shooter %d,%d" % (sh["dx"], sh["dy"]), sh["x"], sh["y"])
     return {
         "version": "1.10", "tiledversion": "1.10.2", "type": "map", "orientation": "orthogonal",
         "renderorder": "right-down", "infinite": False, "width": lv["W"], "height": H,
@@ -249,7 +286,7 @@ def to_tmj(lv, level, tile=8, tileset="../tileset.png", tileset_size=(24, 8)):
         "backgroundcolor": lv["background"],
         "tilesets": [{"firstgid": 1, "name": "tiles", "image": tileset, "imagewidth": tileset_size[0],
                       "imageheight": tileset_size[1], "tilewidth": tile, "tileheight": tile,
-                      "tilecount": 3, "columns": 3, "margin": 0, "spacing": 0}],
+                      "tilecount": 4, "columns": 4, "margin": 0, "spacing": 0}],
         "layers": [
             {"id": 1, "name": "tiles", "type": "tilelayer", "width": lv["W"], "height": H, "x": 0, "y": 0,
              "opacity": 1, "visible": True, "data": data},
@@ -268,11 +305,18 @@ def render_level(lv, level, sprs, path, T=16):
     bg = tuple(int(lv["background"].lstrip("#")[i:i + 2], 16) for i in (0, 2, 4)) + (255,)
     img = Image.new("RGBA", (W * T, H * T), bg)
     tiles = {k: sprites_mod.sprite_image(by[n]).resize((T, T), Image.NEAREST)
-             for k, n in (("#", "rock"), ("=", "rock"), ("M", "moss"), ("^", "spike"))}
+             for k, n in (("#", "rock"), ("=", "rock"), ("M", "moss"), ("^", "spike"), ("~", "crumbly"))}
+    for ch in SHOOTERS:
+        tiles[ch] = tiles["#"].copy()
     for r, row in enumerate(lv["rows"]):
         for x, ch in enumerate(row):
             if ch in tiles:
                 img.alpha_composite(tiles[ch], (x * T, r * T))
+
+    for sh in level.get("shooters", []):
+        sp = sprites_mod.sprite_image(by["shooter"]).resize((T, T), Image.NEAREST)
+        sp = sp.rotate(math.degrees(math.atan2(sh["dy"], sh["dx"])))
+        img.alpha_composite(sp, (int(round((sh["x"] - .5) * T)), int(round((H - sh["y"] - .5) * T))))
 
     def draw(name, wx, wy):
         s = by[name]

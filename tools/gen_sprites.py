@@ -48,6 +48,7 @@ PALETTE = [
     ("a", "#d8d8e8", "metal light"), ("A", "#9a9ab0", "metal dark"),
     ("S", "#6b6478", "stone"), ("y", "#ffe45e", "lit crystal"), ("n", "#6a5a8a", "unlit crystal"),
     ("v", "#7a4fd0", "portal dark"), ("V", "#b58cff", "portal"), ("F", "#f2e6ff", "portal core"),
+    ("Y", "#8a7a5a", "crumbly stone"), ("T", "#6b5d43", "crumbly crack"), ("U", "#a8966f", "crumbly light"),
     ("x", "#3fbf5f", "green shot rim"), ("X", "#d8ffd8", "green shot core"),
     ("z", "#d03030", "red shot rim"), ("Z", "#ffd8d8", "red shot core"),
 ]
@@ -235,7 +236,42 @@ aaAAaaAA
 aaAAaaAA
 """
 
-TILE_ORDER = ["rock", "moss", "spike"]    # gid 1,2,3 in tileset.png / the .tmj export
+SPRITES["crumbly"] = """
+@kind tile
+@ppu 8
+YYYUYYYY
+YYTYYYUY
+YUYYYTYY
+YYYYTYYY
+TYYUYYYY
+YTTYYYUY
+YYYTYYYY
+UYYYYTYY
+"""
+
+# An arrow in flight (points right; the game rotates it) and an arrow shooter socket (points right).
+SPRITES["arrow"] = """
+@ppu 8
+@pivot 0.5 0.5
+......a.
+AAAAAAaa
+......a.
+"""
+
+SPRITES["shooter"] = """
+@ppu 8
+@pivot 0.5 0.5
+RRRRRRRR
+RkkykkkR
+RkkyykkR
+RkyyyykR
+RkyyyykR
+RkkyykkR
+RkkykkkR
+RRRRRRRR
+"""
+
+TILE_ORDER = ["rock", "moss", "spike", "crumbly"]    # gid 1,2,3,4 in tileset.png / the .tmj export
 
 
 # --------------------------------------------------------------------------------------

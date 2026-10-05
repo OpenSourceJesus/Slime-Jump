@@ -85,6 +85,10 @@ CONFIG = {
         "changeLengthSpeed": 7.0,
         "startCollected": True,
     },
+    "crumbly": {"dissolveTime": 1.0},      # DissolveOnHit.dissolveTime (Crumbly Wall.prefab)
+    "arrow": {                             # Arrow.prefab + Arrow Shooter.prefab (the shoot animation is 1s long)
+        "speed": 9.0, "lifetime": 10.0, "damage": 1.0, "cooldown": 1.0,
+    },
     "worm": {
         "hp": 3.0, "isFlying": False, "moveSpeed": 3.5,
         "visionRange": 9.0, "visionAngle": 90.0,
@@ -265,6 +269,8 @@ namespace SlimeJump
 		public float shootCooldown, bulletSpeed, bulletDamage, bulletLifetime;
 	}
 
+	[Serializable] public class CrumblyConfig { public float dissolveTime; }
+	[Serializable] public class ArrowConfig { public float speed, lifetime, damage, cooldown; }
 	[Serializable] public class LassoConfig { public float maxLength, shootSpeed, swingSpeed, changeLengthSpeed; public bool startCollected; }
 
 	[Serializable]
@@ -284,6 +290,7 @@ namespace SlimeJump
 	{
 		public WorldConfig world; public PlayerConfig player; public LassoConfig lasso;
 		public EnemyConfig worm; public EnemyConfig bat;
+		public CrumblyConfig crumbly; public ArrowConfig arrow;
 		static Config cached;
 
 		public static Config Cfg
@@ -306,6 +313,7 @@ namespace SlimeJump
 	[Serializable] public class RectDef { public float x, y, w, h; }   // x,y = min corner
 	[Serializable] public class PointDef { public string name; public float x, y; }
 	[Serializable] public class EnemyDef { public string type; public float x, y; }  // x,y = body centre
+	[Serializable] public class ShooterDef { public float x, y, dx, dy; }             // tile centre + firing direction
 
 	[Serializable]
 	public class LevelData
@@ -317,6 +325,8 @@ namespace SlimeJump
 		public RectDef[] walls;        // solid, layer Wall
 		public RectDef[] climbables;   // solid + climbable, layer Climbable
 		public RectDef[] spikes;       // kill on touch
+		public RectDef[] crumbly;      // solid tiles that fade 1s after the player first touches them
+		public ShooterDef[] shooters;  // arrow shooters (the tile is also in walls)
 		public PointDef[] savepoints;  // x,y = base of the checkpoint
 		public PointDef[] gems;
 		public EnemyDef[] enemies;
@@ -1423,6 +1433,7 @@ namespace SlimeJump
 			GameObject go = new GameObject("Bullet");
 			go.layer = layer;
 			go.transform.position = pos;
+			go.transform.right = dir;      // sprites point right: arrows must face their flight
 			SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
 			sr.sprite = Art.Get(spriteName);
 			sr.sortingOrder = 8;
@@ -1582,6 +1593,93 @@ namespace SlimeJump
 	}
 }
 ''',
+"Crumbly.cs": r"""using UnityEngine;
+
+namespace SlimeJump
+{
+	// Ported from the original DissolveOnHit (Crumbly Wall prefab): the first collision starts a
+	// timer; the wall fades over dissolveTime and then deactivates. Comes back on respawn.
+	public class Crumbly : UpdateWhileEnabled, IResettable
+	{
+		public SpriteRenderer spriteRenderer;
+		float dissolveTimer;
+		bool wasHit;
+
+		public void Init ()
+		{
+			GameManager.resettables.Add(this);
+		}
+
+		void OnCollisionEnter2D (Collision2D coll)
+		{
+			if (wasHit)
+				return;
+			dissolveTimer = Config.Cfg.crumbly.dissolveTime;
+			wasHit = true;
+		}
+
+		public override void DoUpdate ()
+		{
+			if (!wasHit)
+				return;
+			dissolveTimer -= Time.deltaTime;
+			if (dissolveTimer <= 0)
+				gameObject.SetActive(false);
+			else
+				spriteRenderer.color = spriteRenderer.color.SetAlpha(dissolveTimer / Config.Cfg.crumbly.dissolveTime);
+		}
+
+		public void ResetState ()
+		{
+			wasHit = false;
+			spriteRenderer.color = Color.white;
+			gameObject.SetActive(true);
+		}
+	}
+}
+""",
+"ShooterTrap.cs": r"""using UnityEngine;
+
+namespace SlimeJump
+{
+	// Ported from the original ShooterTrap + Arrow Shooter prefab: every step it casts a ray along its
+	// facing; when the first thing hit is the player and a second has passed since the last shot (the
+	// 1s shoot animation), it fires an arrow ("Aim Where Facing" pattern: one arrow along its up).
+	public class ShooterTrap : UpdateWhileEnabled, IResettable
+	{
+		public Vector2 dir;
+		int whatBlocksMyShots;
+		float sinceShot;
+
+		public void Init (Vector2 dir)
+		{
+			this.dir = dir;
+			whatBlocksMyShots = Layers.Mask(Layers.Wall, Layers.Climbable, Layers.Player);
+			GameManager.resettables.Add(this);
+			ResetState ();
+		}
+
+		public void ResetState ()
+		{
+			sinceShot = Config.Cfg.arrow.cooldown;      // ready to fire at once (the original re-runs Awake on respawn)
+		}
+
+		public override void DoUpdate ()
+		{
+			sinceShot += Time.deltaTime;
+			// start just outside our own tile, which is solid
+			Vector2 origin = (Vector2) transform.position + dir * 0.55f;
+			RaycastHit2D hit = Physics2D.Raycast(origin, dir, Mathf.Infinity, whatBlocksMyShots);
+			if (hit.collider != null && hit.collider == Player.instance.col && sinceShot >= Config.Cfg.arrow.cooldown)
+			{
+				sinceShot = 0;
+				ArrowConfig a = Config.Cfg.arrow;
+				Bullet.Spawn(origin, dir, a.speed, a.damage, a.lifetime, Layers.Arrow, "arrow");
+			}
+		}
+	}
+}
+""",
 "Goal.cs": r'''using UnityEngine;
 
 namespace SlimeJump
@@ -1838,6 +1936,8 @@ namespace SlimeJump
 			foreach (RectDef r in level.walls) MakeRect(root, "Wall", r, "rock", Layers.Wall, false, 0);
 			foreach (RectDef r in level.climbables) MakeRect(root, "Climbable Wall", r, "moss", Layers.Climbable, false, 1);
 			foreach (RectDef r in level.spikes) MakeSpikes(root, r);
+			if (level.crumbly != null) foreach (RectDef r in level.crumbly) BuildCrumbly(root, r);
+			if (level.shooters != null) foreach (ShooterDef sh in level.shooters) BuildShooter(root, sh);
 
 			Player player = BuildPlayer(cfg, root);
 			BuildLasso (cfg, player);
@@ -1890,6 +1990,31 @@ namespace SlimeJump
 			bc.size = new Vector2(r.w, r.h * 0.6f);
 			bc.offset = new Vector2(0, -r.h * 0.2f);
 			go.AddComponent<Hazard>();
+		}
+
+		static void BuildCrumbly (Transform root, RectDef r)
+		{
+			GameObject go = Make("Crumbly Wall", root, Centre(r), Layers.Wall);
+			SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
+			sr.sprite = Art.Get("crumbly");
+			sr.sortingOrder = 1;
+			BoxCollider2D bc = go.AddComponent<BoxCollider2D>();
+			bc.size = new Vector2(r.w + 0.04f, r.h);      // neighbouring tiles overlap: flush boxes make the player catch on the seam
+			bc.sharedMaterial = Art.NoFriction();
+			Crumbly c = go.AddComponent<Crumbly>();
+			c.spriteRenderer = sr;
+			c.Init ();
+		}
+
+		// The shooter's tile is already part of the walls; this adds the socket picture and the trap.
+		static void BuildShooter (Transform root, ShooterDef sh)
+		{
+			GameObject go = Make("Arrow Shooter", root, new Vector2(sh.x, sh.y), Layers.Wall);
+			go.transform.right = new Vector2(sh.dx, sh.dy);
+			SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
+			sr.sprite = Art.Get("shooter");
+			sr.sortingOrder = 2;
+			go.AddComponent<ShooterTrap>().Init(new Vector2(sh.dx, sh.dy));
 		}
 
 		static Camera BuildCamera (LevelData level, Config cfg)
@@ -2253,6 +2378,7 @@ static class Shared
     public const int TagGoal = 6;
     public const int TagBulletPlayer = 7;
     public const int TagBulletEnemy = 8;
+    public const int TagArrow = 9;
     public const int TagEnemyBase = 100;        // enemy i has Tag TagEnemyBase + i
 
     public static bool Won;
@@ -2288,6 +2414,11 @@ static class Shared
     static bool[] gemCollected;
     static bool[] saveTouched;
     static int gemCount;
+
+    static Node[] crumblyNodes;
+    static float[] crumblyAlpha;
+    static bool[] crumblyReset;
+    static int crumblyCount;
 
     static Node[] enemyNodes;
     static float[] enemyX;
@@ -2373,6 +2504,41 @@ static class Shared
                 SetB(gemPending, i, false);
                 Scene2D.Current.SetActive(GetN(gemNodes, i), true);
             }
+    }
+
+    // ---- crumbly walls ----
+    public static void InitCrumbly(int count)
+    {
+        crumblyCount = count;
+        crumblyNodes = new Node[count + 1];
+        crumblyAlpha = new float[count + 1];
+        crumblyReset = new bool[count + 1];
+        for (int i = 0; i < count; i++) SetF(crumblyAlpha, i, 1f);
+    }
+
+    public static void RegisterCrumbly(int i, Node n) { SetN(crumblyNodes, i, n); }
+    public static float CrumblyAlpha(int i) { return GetF(crumblyAlpha, i); }
+    public static void SetCrumblyAlpha(int i, float a) { SetF(crumblyAlpha, i, a); }
+    public static bool CrumblyResetFlag(int i) { return GetB(crumblyReset, i); }
+    public static void ClearCrumblyReset(int i) { SetB(crumblyReset, i, false); }
+
+    public static int CrumbledCount()
+    {
+        int n = 0;
+        for (int i = 0; i < crumblyCount; i++)
+            if (GetF(crumblyAlpha, i) <= 0f) n++;
+        return n;
+    }
+
+    // On respawn every crumbly wall comes back whole.
+    public static void ResetCrumbly()
+    {
+        for (int i = 0; i < crumblyCount; i++)
+        {
+            SetB(crumblyReset, i, true);
+            SetF(crumblyAlpha, i, 1f);
+            Scene2D.Current.SetActive(GetN(crumblyNodes, i), true);
+        }
     }
 
     // ---- enemies ----
@@ -2467,7 +2633,7 @@ static class Shared
         for (int i = 0; i < scene.NodeHighWater; i++)
         {
             Node b = scene.NodeAt(i);
-            if (b != null && b.Alive && !b.Destroyed && (b.Tag == TagBulletPlayer || b.Tag == TagBulletEnemy))
+            if (b != null && b.Alive && !b.Destroyed && (b.Tag == TagBulletPlayer || b.Tag == TagBulletEnemy || b.Tag == TagArrow))
                 scene.Destroy(b);
         }
     }
@@ -2477,6 +2643,7 @@ static class Shared
         ResetGems();
         ResetEnemies();
         ResetBullets();
+        ResetCrumbly();
     }
 }
 '''
@@ -2689,6 +2856,7 @@ class PlayerScript
     {
         Shared.DeathRequested = false;
         Shared.Deaths++;
+        Console.WriteLine("death " + Shared.Deaths + " step=" + scene.FixedIndex + " x*1000=" + (int)(node.WorldX() * 1000f) + " y*1000=" + (int)(node.WorldY() * 1000f));
         lockTimer = Cfg.RespawnDelay;
         IsJumping = false;
         IsClimbing = false;
@@ -3020,12 +3188,25 @@ class BulletScript
 
     public static void Spawn(float x, float y, float vx, float vy, float damage, float life, bool fromPlayer)
     {
+        int tag = Shared.TagBulletEnemy;
+        if (fromPlayer) tag = Shared.TagBulletPlayer;
+        SpawnTagged(x, y, vx, vy, damage, life, fromPlayer, tag);
+    }
+
+    // An arrow from a shooter trap: an enemy bullet that is drawn as an arrow.
+    public static void SpawnArrow(float x, float y, float vx, float vy, float damage, float life)
+    {
+        SpawnTagged(x, y, vx, vy, damage, life, false, Shared.TagArrow);
+    }
+
+    static void SpawnTagged(float x, float y, float vx, float vy, float damage, float life, bool fromPlayer, int tag)
+    {
         Scene2D sc = Scene2D.Current;
         Node n = sc.NewNode(null);
         if (n == null) return;
         n.SetPosition(x, y);
-        if (fromPlayer) n.Tag = Shared.TagBulletPlayer;
-        else n.Tag = Shared.TagBulletEnemy;
+        n.SetAngle(MathF.Atan2(vy, vx));                // the renderer draws the bullet along its flight
+        n.Tag = tag;
         BulletScript b = Scripts.AddBulletScript(n);
         if (b == null)
         {
@@ -3218,6 +3399,95 @@ class LassoScript
 }
 '''
 
+SUBSET_TRAPS_CS = r'''
+using System;
+using @NS@;
+using @PB2NS@;
+
+// Ported from the original DissolveOnHit (Crumbly Wall prefab): the first collision starts a timer;
+// the wall fades over CrumblyDissolveTime and then deactivates. It comes back on respawn.
+[Script(Order = 6), MaxInstances(96)]
+class CrumblyScript
+{
+    public Component Self;
+    public int Index;
+    Scene2D scene;
+    Node node;
+    bool hit;
+    float timer;
+
+    public void Start()
+    {
+        scene = Scene2D.Current;
+        node = Self.Node;
+    }
+
+    public void OnCollisionBegin2D(Collision2D contact)
+    {
+        if (hit) return;
+        hit = true;
+        timer = Cfg.CrumblyDissolveTime;
+    }
+
+    public void FixedUpdate()
+    {
+        if (Shared.CrumblyResetFlag(Index))
+        {
+            Shared.ClearCrumblyReset(Index);
+            hit = false;
+            timer = 0f;
+        }
+        if (!hit) return;
+        timer -= Cfg.Dt;
+        if (timer <= 0f)
+        {
+            Shared.SetCrumblyAlpha(Index, 0f);
+            scene.SetActive(node, false);
+        }
+        else
+            Shared.SetCrumblyAlpha(Index, timer / Cfg.CrumblyDissolveTime);
+    }
+}
+
+// Ported from the original ShooterTrap + Arrow Shooter prefab: every step it casts a ray along its
+// facing; when the first thing hit is the player and a second has passed since the last shot (the
+// 1s shoot animation) it fires an arrow ("Aim Where Facing": one arrow along its facing).
+[Script(Order = 7), MaxInstances(32)]
+class ShooterScript
+{
+    public Component Self;
+    public float DirX;
+    public float DirY;
+    Scene2D scene;
+    Node node;
+    uint mask;
+    float sinceShot;
+
+    public void Start()
+    {
+        scene = Scene2D.Current;
+        node = Self.Node;
+        mask = (1u << Layers.Wall) | (1u << Layers.Climbable) | (1u << Layers.Player);
+        sinceShot = Cfg.ShooterCooldown;
+    }
+
+    public void FixedUpdate()
+    {
+        sinceShot += Cfg.Dt;
+        if (Shared.DeathRequested) sinceShot = Cfg.ShooterCooldown;      // ready again after a respawn
+        // start just outside our own tile, which is solid
+        float ox = node.WorldX() + DirX * 0.55f;
+        float oy = node.WorldY() + DirY * 0.55f;
+        int hit = scene.Physics.Sim.Raycast(ox, oy, DirX, DirY, 500f, mask, false);
+        if (hit == Shared.PlayerColliderIndex && sinceShot >= Cfg.ShooterCooldown)
+        {
+            sinceShot = 0f;
+            BulletScript.SpawnArrow(ox, oy, DirX * Cfg.ArrowSpeed, DirY * Cfg.ArrowSpeed, Cfg.ArrowDamage, Cfg.ArrowLifetime);
+        }
+    }
+}
+'''
+
 SUBSET_OBJECTS_CS = r'''using System;
 using @NS@;
 using @PB2NS@;
@@ -3384,6 +3654,18 @@ class BotScript
         }
         else if (Shared.PlayerJumping)
             jump = true;                                   // full-height jumps
+        // an arrow coming straight at us along the floor: jump it
+        if (Shared.PlayerGrounded && !Shared.PlayerClimbing && !Shared.LassoAttached)
+        {
+            for (int i = 0; i < scene.NodeHighWater; i++)
+            {
+                Node a = scene.NodeAt(i);
+                if (a == null || !a.Alive || a.Destroyed || a.Tag != Shared.TagArrow) continue;
+                float adx = a.WorldX() - x;
+                float ady = a.WorldY() - y;
+                if (MathF.Abs(ady) < 0.9f && MathF.Abs(adx) < 6.5f && adx * MathF.Cos(a.WorldAngle()) < 0f) jump = true;
+            }
+        }
         InputState.Move = dir;
         InputState.Jump = jump;
     }
@@ -3468,6 +3750,24 @@ static class Game
             gs.Index = i;
             Shared.RegisterGem(i, n);
         }
+        Shared.InitCrumbly(Level.CrumblyCount);
+        for (int i = 0; i < Level.CrumblyCount; i++)
+        {
+            // each collider is 0.04 wider than its tile, so neighbours overlap: with exactly flush boxes the slime catches on the seam (a ghost collision)
+            Node cn = MakeBox(scene, Level.CrumblyTile(i, 0) + 0.5f, Level.CrumblyTile(i, 1) + 0.5f, Level.CrumblyTile(i, 2) + 0.04f, Level.CrumblyTile(i, 3), Layers.Wall, Shared.TagWall, false, 0f);
+            CrumblyScript cs = Scripts.AddCrumblyScript(cn);
+            cs.Index = i;
+            Shared.RegisterCrumbly(i, cn);
+        }
+        for (int i = 0; i < Level.ShooterCount; i++)
+        {
+            // the shooter's tile is already part of the walls: this node only carries the trap
+            Node sn = scene.NewNode(null);
+            sn.SetPosition(Level.Shooter(i, 0), Level.Shooter(i, 1));
+            ShooterScript ss = Scripts.AddShooterScript(sn);
+            ss.DirX = Level.Shooter(i, 2);
+            ss.DirY = Level.Shooter(i, 3);
+        }
         Shared.InitEnemies(Level.EnemyCount);
         for (int i = 0; i < Level.EnemyCount; i++)
         {
@@ -3548,7 +3848,7 @@ static class Game
         int slain = 0;
         for (int i = 0; i < Shared.EnemyCount(); i++)
             if (!Shared.EnemyAlive(i)) slain++;
-        Console.WriteLine("won=" + won + " frame=" + wonFrame + " deaths=" + Shared.Deaths + " gems=" + Shared.Gems + " enemies=" + Shared.EnemyCount() + " slain=" + slain);
+        Console.WriteLine("won=" + won + " frame=" + wonFrame + " deaths=" + Shared.Deaths + " gems=" + Shared.Gems + " enemies=" + Shared.EnemyCount() + " slain=" + slain + " crumbled=" + Shared.CrumbledCount());
         Console.WriteLine("first jump frame=" + firstJump + " first climb frame=" + firstClimb);
         Console.WriteLine("max x*1000=" + Milli(maxX) + " max y*1000=" + Milli(maxY) + " end x*1000=" + Milli(player.WorldX()) + " y*1000=" + Milli(player.WorldY()));
         return won == 1 ? 0 : 1;
@@ -3629,6 +3929,21 @@ static class SlimeRender
         }
     }
 
+    // The same art, turned: every run of boxes is rotated about the sprite's pivot and drawn at the same angle.
+    static void DrawArtRot(int id, float cx, float cy, float angle, float alpha, float layer)
+    {
+        float ca = MathF.Cos(angle);
+        float sa = MathF.Sin(angle);
+        int cnt = Art.Count(id);
+        for (int i = 0; i < cnt; i++)
+        {
+            float dx = Art.Run(id, i, 0);
+            float dy = Art.Run(id, i, 1);
+            BoxA(cx + dx * ca - dy * sa, cy + dx * sa + dy * ca, Art.Run(id, i, 2), Art.Run(id, i, 3), angle,
+                 Art.Run(id, i, 4), Art.Run(id, i, 5), Art.Run(id, i, 6), alpha, layer);
+        }
+    }
+
     static bool Visible(float x, float y, float w, float h, float x0, float y0, float x1, float y1)
     {
         return !(x > x1 || x + w < x0 || y > y1 || y + h < y0);
@@ -3692,6 +4007,18 @@ static class SlimeRender
             float rx = Level.Spike(i, 0), ry = Level.Spike(i, 1), rw = Level.Spike(i, 2), rh = Level.Spike(i, 3);
             if (Visible(rx, ry, rw, rh, x0, y0, x1, y1)) DrawTiles(Art.Spike, rx, ry, rw, rh, x0, y0, x1, y1, 3f);
         }
+        for (int i = 0; i < Level.CrumblyCount; i++)
+        {
+            float cx = Level.CrumblyTile(i, 0), cy = Level.CrumblyTile(i, 1);
+            float ca = Shared.CrumblyAlpha(i);
+            if (ca > 0f && Visible(cx, cy, 1f, 1f, x0, y0, x1, y1)) DrawArt(Art.Crumbly, cx + 0.5f, cy + 0.5f, false, ca, 2f);
+        }
+        for (int i = 0; i < Level.ShooterCount; i++)
+        {
+            float shx = Level.Shooter(i, 0), shy = Level.Shooter(i, 1);
+            if (Visible(shx - 1f, shy - 1f, 2f, 2f, x0, y0, x1, y1))
+                DrawArtRot(Art.Shooter, shx, shy, MathF.Atan2(Level.Shooter(i, 3), Level.Shooter(i, 2)), 1f, 2.5f);
+        }
         for (int i = 0; i < Level.SaveCount; i++)
         {
             float sx = Level.Save(i, 0), sy = Level.Save(i, 1);
@@ -3727,6 +4054,7 @@ static class SlimeRender
             if (b == null || !b.Alive || b.Destroyed) continue;
             if (b.Tag == Shared.TagBulletPlayer) DrawArt(Art.BulletGreen, b.WorldX(), b.WorldY(), false, 1f, 7f);
             else if (b.Tag == Shared.TagBulletEnemy) DrawArt(Art.BulletRed, b.WorldX(), b.WorldY(), false, 1f, 7f);
+            else if (b.Tag == Shared.TagArrow) DrawArtRot(Art.Arrow, b.WorldX(), b.WorldY(), b.WorldAngle(), 1f, 7f);
         }
         if (Shared.LassoActive)
         {
@@ -3772,6 +4100,9 @@ def subset_cfg_cs():
         ("MoveSpeed", p["moveSpeed"]), ("JumpSpeed", p["jumpSpeed"]), ("ClimbSpeed", p["climbSpeed"]),
         ("ClimbFallSpeed", p["climbFallSpeed"]), ("LinearDamping", p["linearDamping"]),
         ("RespawnDelay", p["respawnDelay"]), ("ColliderW", p["colliderW"]), ("ColliderH", p["colliderH"]),
+        ("CrumblyDissolveTime", CONFIG["crumbly"]["dissolveTime"]), ("ArrowSpeed", CONFIG["arrow"]["speed"]),
+        ("ArrowLifetime", CONFIG["arrow"]["lifetime"]), ("ArrowDamage", CONFIG["arrow"]["damage"]),
+        ("ShooterCooldown", CONFIG["arrow"]["cooldown"]),
         ("ShootCooldown", p["shootCooldown"]), ("BulletSpeed", p["bulletSpeed"]), ("BulletDamage", p["bulletDamage"]),
         ("BulletLifetime", p["bulletLifetime"]),
         ("LassoMaxLength", l["maxLength"]), ("LassoShootSpeed", l["shootSpeed"]),
@@ -3821,7 +4152,9 @@ def subset_level_cs(level):
     arrays = [("Walls", "Wall", "WallCount", level["walls"], 4), ("Climbs", "Climb", "ClimbCount", level["climbables"], 4),
               ("Spikes", "Spike", "SpikeCount", level["spikes"], 4), ("Saves", "Save", "SaveCount", level["savepoints"], 2),
               ("Gems", "Gem", "GemCount", level["gems"], 2),
-              ("Anchors", "Anchor", "AnchorCount", level.get("hints", {}).get("anchors", []), 2)]
+              ("Anchors", "Anchor", "AnchorCount", level.get("hints", {}).get("anchors", []), 2),
+              ("Crumbles", "CrumblyTile", "CrumblyCount", level.get("crumbly", []), 4),
+              ("Shooters", "Shooter", "ShooterCount", level.get("shooters", []), 4)]
     L = ["// GENERATED from the level data", "static class Level", "{",
          "    static float spawnX, spawnY, goalX, goalY, minY, minX, maxX, maxY;",
          "    public static float MinX() { return minX; }",
@@ -3852,7 +4185,8 @@ def subset_level_cs(level):
         L.append("        %s = new float[%d]; %s = %d;" % (arr, max(1, len(items)) * stride, cnt, len(items)))
         for i, r in enumerate(items):
             if stride == 4:
-                L.append("        Set4(%s, %d, %s, %s, %s, %s);" % (arr, i, _f(r["x"]), _f(r["y"]), _f(r["w"]), _f(r["h"])))
+                third, fourth = (r["w"], r["h"]) if "w" in r else (r["dx"], r["dy"])      # rects, or shooters: x y dx dy
+                L.append("        Set4(%s, %d, %s, %s, %s, %s);" % (arr, i, _f(r["x"]), _f(r["y"]), _f(third), _f(fourth)))
             else:
                 L.append("        Set2(%s, %d, %s, %s);" % (arr, i, _f(r["x"]), _f(r["y"])))
     L.append("        Enemies = new float[%d]; EnemyCount = %d;" % (max(1, len(level["enemies"])) * 3, len(level["enemies"])))
@@ -3953,7 +4287,7 @@ def write_subset_project(out, level, engine, max_frames=3000, force=False, rende
         game = game.replace("@RENDER_INIT@\n", "").replace("@RENDER_FRAME@\n", "").replace("@RENDER_END@\n", "")
     files = {
         "Game.cs": game,
-        "Player.cs": SUBSET_PLAYER_CS, "Shared.cs": SUBSET_SHARED_CS, "Objects.cs": SUBSET_OBJECTS_CS, "Enemy.cs": SUBSET_ENEMY_CS, "Lasso.cs": SUBSET_LASSO_CS,
+        "Player.cs": SUBSET_PLAYER_CS, "Shared.cs": SUBSET_SHARED_CS, "Objects.cs": SUBSET_OBJECTS_CS, "Enemy.cs": SUBSET_ENEMY_CS, "Traps.cs": SUBSET_TRAPS_CS, "Lasso.cs": SUBSET_LASSO_CS,
         "EnemyCfg.cs": subset_enemy_cfg_cs(), "Bot.cs": SUBSET_BOT_CS,
         "Input.cs": SUBSET_INPUT_CS,
         "Cfg.cs": subset_cfg_cs(), "Layers.cs": subset_layers_cs(), "Level.cs": subset_level_cs(level),
