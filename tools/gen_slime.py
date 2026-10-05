@@ -3980,7 +3980,7 @@ def write_subset_project(out, level, engine, max_frames=3000, force=False, rende
 # 7. CLI
 # ======================================================================================
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Generate a Slime Jump Unity project from a level JSON.")
+    ap = argparse.ArgumentParser(description="Generate a Slime Jump project (Unity, Prowl2D or Stride2D) from a level JSON.")
     ap.add_argument("--level", required=True, help="level.json (see validate_level for the schema)")
     ap.add_argument("--out", default="/tmp/SlimeJumpProject")
     ap.add_argument("--unity-version", default=DEFAULT_UNITY_VERSION)
