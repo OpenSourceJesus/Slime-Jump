@@ -51,6 +51,22 @@ levels/<name>.json   .tmj   .png                               level data, Tiled
 
 Open the generated Unity project (`/tmp/SlimeJumpCave`) with the Unity version in its `ProjectSettings/ProjectVersion.txt`, open any scene and press Play. Controls: A/D move, W jump (hold to climb moss), left click shoot, right click lasso (W/S reel in/out), Esc pause, Del reset save.
 
+### An authored `.unity` scene, for Crust's Unity_Pack
+
+`gen_slime.py` builds its scene at run time, so it writes no scene file. [Unity_Pack](https://github.com/brentharts/crust)
+(`tools/unity_pack.py` in the crust repo) reads authored scenes, so `gen_unity_scene.py` writes one: a camera, a uGUI
+Canvas with a **Start Game** button, and the slime sprite, which stays hidden until the button is pressed.
+
+```sh
+python3 tools/gen_unity_scene.py --out /tmp/SlimeJumpMenu                 # Assets/Scenes/Menu.unity + script, sprite, TMP font
+python3 ../crust/tools/unity_pack.py /tmp/SlimeJumpMenu -o /tmp/SlimeJumpMenu_pack
+python3 tools/test_unity_scene.py --crust ../crust                         # generate, pack, click the button, check the result
+```
+
+`--onclick script` (default) wires the button to `GameManager.StartGame()`; `--onclick setactive` uses two direct
+`GameObject.SetActive` calls and no script. The test builds both and requires that, after a click on the button, the
+menu is no longer drawn and the slime is.
+
 ### The ASCII formats
 
 **Sprites** (`ascii/sprites/<name>.txt`): one character is one pixel, and one character always means one colour (`palette.txt`).
